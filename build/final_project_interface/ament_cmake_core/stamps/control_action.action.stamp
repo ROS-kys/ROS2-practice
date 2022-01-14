@@ -1,0 +1,5 @@
+int32 goal_pose
+---
+int32 now_pose
+---
+int32 end

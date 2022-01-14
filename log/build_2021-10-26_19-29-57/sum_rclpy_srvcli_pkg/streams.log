@@ -1,0 +1,25 @@
+[0.390s] Invoking command in '/home/ys/robot_ws/build/sum_rclpy_srvcli_pkg': PYTHONPATH=/home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/sum_rclpy_srvcli_pkg --editable --build-directory /home/ys/robot_ws/build/sum_rclpy_srvcli_pkg/build --no-deps install_data --install-dir /home/ys/robot_ws/install/sum_rclpy_srvcli_pkg
+[0.733s] running develop
+[0.927s] running egg_info
+[0.927s] creating sum_rclpy_srvcli_pkg.egg-info
+[0.927s] writing sum_rclpy_srvcli_pkg.egg-info/PKG-INFO
+[0.928s] writing dependency_links to sum_rclpy_srvcli_pkg.egg-info/dependency_links.txt
+[0.928s] writing entry points to sum_rclpy_srvcli_pkg.egg-info/entry_points.txt
+[0.928s] writing requirements to sum_rclpy_srvcli_pkg.egg-info/requires.txt
+[0.929s] writing top-level names to sum_rclpy_srvcli_pkg.egg-info/top_level.txt
+[0.933s] writing manifest file 'sum_rclpy_srvcli_pkg.egg-info/SOURCES.txt'
+[0.991s] reading manifest file 'sum_rclpy_srvcli_pkg.egg-info/SOURCES.txt'
+[0.993s] writing manifest file 'sum_rclpy_srvcli_pkg.egg-info/SOURCES.txt'
+[1.067s] running build_ext
+[1.069s] Creating /home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/lib/python3.8/site-packages/site.py
+[1.081s] Creating /home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/lib/python3.8/site-packages/sum-rclpy-srvcli-pkg.egg-link (link to .)
+[1.083s] Installing sum_service = sum_rclpy_srvcli_pkg.sum_service:mainsum_client script to /home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/lib/sum_rclpy_srvcli_pkg
+[1.084s] 
+[1.084s] Installed /home/ys/robot_ws/build/sum_rclpy_srvcli_pkg
+[1.084s] running install_data
+[1.085s] creating /home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/share/ament_index
+[1.085s] creating /home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/share/ament_index/resource_index
+[1.085s] creating /home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/share/ament_index/resource_index/packages
+[1.086s] copying resource/sum_rclpy_srvcli_pkg -> /home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/share/ament_index/resource_index/packages
+[1.086s] copying package.xml -> /home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/share/sum_rclpy_srvcli_pkg
+[1.125s] Invoked command in '/home/ys/robot_ws/build/sum_rclpy_srvcli_pkg' returned '0': PYTHONPATH=/home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/sum_rclpy_srvcli_pkg --editable --build-directory /home/ys/robot_ws/build/sum_rclpy_srvcli_pkg/build --no-deps install_data --install-dir /home/ys/robot_ws/install/sum_rclpy_srvcli_pkg

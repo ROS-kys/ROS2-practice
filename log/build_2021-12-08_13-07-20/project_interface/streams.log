@@ -1,0 +1,162 @@
+[0.043s] Invoking command in '/home/ys/robot_ws/build/project_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/project_parameter:/home/ys/robot_ws/install/final_project:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ys/robot_ws/build/project_interface -- -j1 -l1
+[0.138s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.238s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.239s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.903s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.925s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.943s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.957s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.428s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.614s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.449s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[2.910s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.030s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.148s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.149s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.269s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.270s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.270s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.412s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.448s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.453s] -- Added test 'lint_cmake' to check CMake code style
+[3.457s] -- Added test 'xmllint' to check XML markup files
+[3.476s] -- Configuring done
+[3.646s] -- Generating done
+[3.660s] -- Build files have been written to: /home/ys/robot_ws/build/project_interface
+[3.750s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.324s] [  3%] Built target project_interface__cpp
+[5.348s] [  6%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.423s] [35m[1mScanning dependencies of target project_interface__rosidl_typesupport_cpp[0m
+[6.456s] [  9%] [32mBuilding CXX object CMakeFiles/project_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/project_interface/action/controller__type_support.cpp.o[0m
+[7.392s] [ 12%] [32m[1mLinking CXX shared library libproject_interface__rosidl_typesupport_cpp.so[0m
+[7.504s] [ 12%] Built target project_interface__rosidl_typesupport_cpp
+[7.528s] [ 16%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.217s] [35m[1mScanning dependencies of target project_interface__rosidl_generator_c[0m
+[9.247s] [ 19%] [32mBuilding C object CMakeFiles/project_interface__rosidl_generator_c.dir/rosidl_generator_c/project_interface/action/detail/controller__functions.c.o[0m
+[9.479s] [ 22%] [32m[1mLinking C shared library libproject_interface__rosidl_generator_c.so[0m
+[9.580s] [ 22%] Built target project_interface__rosidl_generator_c
+[9.604s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[10.720s] [35m[1mScanning dependencies of target project_interface__rosidl_typesupport_c[0m
+[10.757s] [ 29%] [32mBuilding CXX object CMakeFiles/project_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/project_interface/action/controller__type_support.cpp.o[0m
+[10.884s] [ 32%] [32m[1mLinking CXX shared library libproject_interface__rosidl_typesupport_c.so[0m
+[10.997s] [ 32%] Built target project_interface__rosidl_typesupport_c
+[11.021s] [ 35%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[12.545s] [35m[1mScanning dependencies of target project_interface__rosidl_typesupport_fastrtps_cpp[0m
+[12.583s] [ 38%] [32mBuilding CXX object CMakeFiles/project_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/project_interface/action/detail/dds_fastrtps/controller__type_support.cpp.o[0m
+[13.917s] [ 41%] [32m[1mLinking CXX shared library libproject_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[14.149s] [ 41%] Built target project_interface__rosidl_typesupport_fastrtps_cpp
+[14.177s] [ 45%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.745s] [35m[1mScanning dependencies of target project_interface__rosidl_typesupport_fastrtps_c[0m
+[15.789s] [ 48%] [32mBuilding CXX object CMakeFiles/project_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/project_interface/action/detail/controller__type_support_c.cpp.o[0m
+[16.982s] [ 51%] [32m[1mLinking CXX shared library libproject_interface__rosidl_typesupport_fastrtps_c.so[0m
+[17.220s] [ 51%] Built target project_interface__rosidl_typesupport_fastrtps_c
+[17.244s] [ 54%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[18.493s] [35m[1mScanning dependencies of target project_interface__rosidl_typesupport_introspection_cpp[0m
+[18.528s] [ 58%] [32mBuilding CXX object CMakeFiles/project_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/project_interface/action/detail/controller__type_support.cpp.o[0m
+[19.477s] [ 61%] [32m[1mLinking CXX shared library libproject_interface__rosidl_typesupport_introspection_cpp.so[0m
+[19.666s] [ 61%] Built target project_interface__rosidl_typesupport_introspection_cpp
+[19.693s] [ 64%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[21.063s] [35m[1mScanning dependencies of target project_interface__rosidl_typesupport_introspection_c[0m
+[21.096s] [ 67%] [32mBuilding C object CMakeFiles/project_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/project_interface/action/detail/controller__type_support.c.o[0m
+[21.217s] [ 70%] [32m[1mLinking C shared library libproject_interface__rosidl_typesupport_introspection_c.so[0m
+[21.306s] [ 70%] Built target project_interface__rosidl_typesupport_introspection_c
+[21.355s] [ 70%] Built target project_interface
+[21.404s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[24.935s] [ 74%] Built target project_interface__py
+[24.963s] [35m[1mScanning dependencies of target project_interface__python[0m
+[25.002s] [ 77%] [32mBuilding C object CMakeFiles/project_interface__python.dir/rosidl_generator_py/project_interface/action/_controller_s.c.o[0m
+[25.463s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/project_interface/libproject_interface__python.so[0m
+[25.584s] [ 80%] Built target project_interface__python
+[25.616s] [35m[1mScanning dependencies of target project_interface__rosidl_typesupport_introspection_c__pyext[0m
+[25.660s] [ 83%] [32mBuilding C object CMakeFiles/project_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/project_interface/_project_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[25.957s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/project_interface/project_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[26.072s] [ 87%] Built target project_interface__rosidl_typesupport_introspection_c__pyext
+[26.101s] [35m[1mScanning dependencies of target project_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[26.168s] [ 90%] [32mBuilding C object CMakeFiles/project_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/project_interface/_project_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[26.493s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/project_interface/project_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[26.691s] [ 93%] Built target project_interface__rosidl_typesupport_fastrtps_c__pyext
+[26.717s] [35m[1mScanning dependencies of target project_interface__rosidl_typesupport_c__pyext[0m
+[26.756s] [ 96%] [32mBuilding C object CMakeFiles/project_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/project_interface/_project_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[27.120s] [100%] [32m[1mLinking C shared library rosidl_generator_py/project_interface/project_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[27.239s] [100%] Built target project_interface__rosidl_typesupport_c__pyext
+[27.269s] Invoked command in '/home/ys/robot_ws/build/project_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/project_parameter:/home/ys/robot_ws/install/final_project:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/opt/ros/foxy /usr/bin/cmake --build /home/ys/robot_ws/build/project_interface -- -j1 -l1
+[27.422s] Invoking command in '/home/ys/robot_ws/build/project_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/project_parameter:/home/ys/robot_ws/install/final_project:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ys/robot_ws/build/project_interface
+[27.452s] -- Install configuration: ""
+[27.454s] -- Execute custom install script
+[27.454s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/ament_index/resource_index/rosidl_interfaces/project_interface
+[27.455s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/action/controller.h
+[27.458s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/action/detail/controller__functions.h
+[27.458s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/action/detail/controller__struct.h
+[27.458s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/action/detail/controller__type_support.h
+[27.459s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/msg/rosidl_generator_c__visibility_control.h
+[27.461s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/environment/library_path.sh
+[27.462s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/environment/library_path.dsv
+[27.464s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/action/detail/controller__rosidl_typesupport_fastrtps_c.h
+[27.464s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[27.469s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_fastrtps_c.so
+[27.470s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/action/detail/controller__rosidl_typesupport_fastrtps_cpp.hpp
+[27.470s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[27.471s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_fastrtps_cpp.so
+[27.477s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/action/detail/controller__rosidl_typesupport_introspection_c.h
+[27.477s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[27.478s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/action/controller.hpp
+[27.479s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/action/detail/controller__builder.hpp
+[27.479s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/action/detail/controller__struct.hpp
+[27.480s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/action/detail/controller__traits.hpp
+[27.480s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/include/project_interface/action/detail/controller__rosidl_typesupport_introspection_cpp.hpp
+[27.482s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/environment/pythonpath.sh
+[27.483s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/environment/pythonpath.dsv
+[27.484s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/lib/python3.8/site-packages/project_interface/__init__.py
+[27.485s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/lib/python3.8/site-packages/project_interface/action/__init__.py
+[27.486s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/lib/python3.8/site-packages/project_interface/action/_controller.py
+[27.487s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/lib/python3.8/site-packages/project_interface/project_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[27.489s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/lib/python3.8/site-packages/project_interface/project_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[27.490s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/lib/python3.8/site-packages/project_interface/project_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[27.496s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/lib/libproject_interface__python.so
+[27.497s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/action/Controller.idl
+[27.497s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/action/Controller.action
+[27.498s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/ament_index/resource_index/package_run_dependencies/project_interface
+[27.498s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/ament_index/resource_index/parent_prefix_path/project_interface
+[27.500s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/environment/ament_prefix_path.sh
+[27.502s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/environment/ament_prefix_path.dsv
+[27.502s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/environment/path.sh
+[27.504s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/environment/path.dsv
+[27.504s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/local_setup.bash
+[27.508s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/local_setup.sh
+[27.508s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/local_setup.zsh
+[27.509s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/local_setup.dsv
+[27.509s] -- Symlinking: /home/ys/robot_ws/install/project_interface/share/project_interface/package.dsv
+[27.533s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/ament_index/resource_index/packages/project_interface
+[27.534s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/rosidl_cmake-extras.cmake
+[27.536s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[27.537s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[27.540s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/ament_cmake_export_targets-extras.cmake
+[27.540s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[27.541s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.542s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.544s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/project_interfaceConfig.cmake
+[27.544s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/project_interfaceConfig-version.cmake
+[27.545s] -- Up-to-date symlink: /home/ys/robot_ws/install/project_interface/share/project_interface/package.xml
+[27.548s] -- Installing: /home/ys/robot_ws/install/project_interface/lib/libproject_interface__rosidl_generator_c.so
+[27.549s] -- Set runtime path of "/home/ys/robot_ws/install/project_interface/lib/libproject_interface__rosidl_generator_c.so" to ""
+[27.549s] -- Installing: /home/ys/robot_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_introspection_c.so
+[27.550s] -- Set runtime path of "/home/ys/robot_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_introspection_c.so" to ""
+[27.552s] -- Installing: /home/ys/robot_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_c.so
+[27.552s] -- Set runtime path of "/home/ys/robot_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_c.so" to ""
+[27.553s] -- Installing: /home/ys/robot_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_introspection_cpp.so
+[27.555s] -- Set runtime path of "/home/ys/robot_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_introspection_cpp.so" to ""
+[27.556s] -- Installing: /home/ys/robot_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_cpp.so
+[27.560s] -- Set runtime path of "/home/ys/robot_ws/install/project_interface/lib/libproject_interface__rosidl_typesupport_cpp.so" to ""
+[27.680s] Compiling '/home/ys/robot_ws/install/project_interface/lib/python3.8/site-packages/project_interface/__init__.py'...
+[27.693s] -- Up-to-date: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_generator_cExport.cmake
+[27.693s] -- Installing: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_generator_cExport-noconfig.cmake
+[27.695s] -- Up-to-date: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_introspection_cExport.cmake
+[27.695s] -- Installing: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.696s] -- Up-to-date: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_cExport.cmake
+[27.700s] -- Installing: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_cExport-noconfig.cmake
+[27.700s] -- Up-to-date: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_generator_cppExport.cmake
+[27.701s] -- Up-to-date: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_introspection_cppExport.cmake
+[27.701s] -- Installing: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.702s] -- Up-to-date: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_cppExport.cmake
+[27.702s] -- Installing: /home/ys/robot_ws/install/project_interface/share/project_interface/cmake/project_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[27.710s] Invoked command in '/home/ys/robot_ws/build/project_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/project_parameter:/home/ys/robot_ws/install/final_project:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/opt/ros/foxy /usr/bin/cmake --install /home/ys/robot_ws/build/project_interface

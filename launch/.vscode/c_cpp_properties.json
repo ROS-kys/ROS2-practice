@@ -1,0 +1,22 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/ys/robot_ws/install/teleop_twist_joy/include/**",
+        "/home/ys/robot_ws/install/my_interface_example/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/ys/robot_ws/src/my_action_interface/include/**",
+        "/home/ys/robot_ws/src/my_interface_example/include/**",
+        "/home/ys/robot_ws/src/teleop_twist_joy/include/**",
+        "/home/ys/robot_ws/src/test_ros_rclcpp_pkg/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/test_ros_rclpy_pkg
+test_ros_rclpy_pkg/__init__.py
+test_ros_rclpy_pkg.egg-info/PKG-INFO
+test_ros_rclpy_pkg.egg-info/SOURCES.txt
+test_ros_rclpy_pkg.egg-info/dependency_links.txt
+test_ros_rclpy_pkg.egg-info/entry_points.txt
+test_ros_rclpy_pkg.egg-info/requires.txt
+test_ros_rclpy_pkg.egg-info/top_level.txt
+test_ros_rclpy_pkg.egg-info/zip-safe

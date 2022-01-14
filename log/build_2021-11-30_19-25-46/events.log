@@ -1,0 +1,468 @@
+[0.000000] (-) TimerEvent: {}
+[0.000236] (-) JobUnselected: {'identifier': 'fibonacci_rclpy_action_pkg'}
+[0.000279] (-) JobUnselected: {'identifier': 'final_project'}
+[0.000308] (-) JobUnselected: {'identifier': 'first_rclpy_pkg'}
+[0.000336] (-) JobUnselected: {'identifier': 'my_action_interface'}
+[0.000364] (-) JobUnselected: {'identifier': 'my_interface_example'}
+[0.000392] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.000420] (-) JobUnselected: {'identifier': 'sum_rclpy_srvcli_pkg'}
+[0.000447] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.000474] (-) JobUnselected: {'identifier': 'test_ros_rclcpp_pkg'}
+[0.000501] (-) JobUnselected: {'identifier': 'test_ros_rclpy_pkg'}
+[0.000531] (final_project_interface) JobQueued: {'identifier': 'final_project_interface', 'dependencies': OrderedDict()}
+[0.000951] (final_project_interface) JobStarted: {'identifier': 'final_project_interface'}
+[0.037832] (final_project_interface) JobProgress: {'identifier': 'final_project_interface', 'progress': 'cmake'}
+[0.042045] (final_project_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/ys/robot_ws/src/final_project_interface', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ys/robot_ws/install/final_project_interface'], 'cwd': '/home/ys/robot_ws/build/final_project_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ys'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1588'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ys/ws_moveit2/install/moveit_visual_tools/lib:/home/ys/ws_moveit2/install/rviz_visual_tools/lib:/home/ys/robot_ws/install/teleop_twist_joy/lib:/home/ys/robot_ws/install/my_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ys'), ('OLDPWD', '/home/ys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15891'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ys/ws_moveit2/install:/home/ys/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ys'), ('JOURNAL_STREAM', '8:36975'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ys-VirtualBox:@/tmp/.ICE-unix/1637,unix/ys-VirtualBox:/tmp/.ICE-unix/1637'), ('INVOCATION_ID', '641282e2db214f61b1ad119d33d2960d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ys/ws_moveit2/install/moveit2_tutorials:/home/ys/ws_moveit2/install/moveit_visual_tools:/home/ys/ws_moveit2/install/rviz_visual_tools:/home/ys/ws_moveit2/install/moveit_resources:/home/ys/ws_moveit2/install/moveit_resources_pr2_description:/home/ys/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_panda_description:/home/ys/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_fanuc_description:/home/ys/robot_ws/install/teleop_twist_joy:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/my_interface_example:/home/ys/robot_ws/install/final_project:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:54d36223-fc1b-4e11-9b3d-4f5a495c54e9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ys/robot_ws/build/final_project_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ys/robot_ws/build/sum_rclpy_srvcli_pkg:/home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/python_parameters:/home/ys/robot_ws/install/python_parameters/lib/python3.8/site-packages:/home/ys/robot_ws/build/first_rclpy_pkg:/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages:/home/ys/robot_ws/build/final_project:/home/ys/robot_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ys/ws_moveit2/install/moveit2_tutorials:/home/ys/ws_moveit2/install/moveit_visual_tools:/home/ys/ws_moveit2/install/rviz_visual_tools:/home/ys/ws_moveit2/install/moveit_resources:/home/ys/ws_moveit2/install/moveit_resources_pr2_description:/home/ys/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_panda_description:/home/ys/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_fanuc_description:/home/ys/robot_ws/install/teleop_twist_joy:/home/ys/robot_ws/install/my_interface_example:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/final_project:/opt/ros/foxy')]), 'shell': False}
+[0.088979] (-) TimerEvent: {}
+[0.102552] (final_project_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.190293] (-) TimerEvent: {}
+[0.227944] (final_project_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.230392] (final_project_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.290822] (-) TimerEvent: {}
+[0.393999] (-) TimerEvent: {}
+[0.497015] (-) TimerEvent: {}
+[0.598269] (-) TimerEvent: {}
+[0.699211] (-) TimerEvent: {}
+[0.702507] (final_project_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.720961] (final_project_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.732949] (final_project_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.744496] (final_project_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.799348] (-) TimerEvent: {}
+[0.900815] (-) TimerEvent: {}
+[1.001701] (-) TimerEvent: {}
+[1.008180] (final_project_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101850] (-) TimerEvent: {}
+[1.139672] (final_project_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.201982] (-) TimerEvent: {}
+[1.303112] (-) TimerEvent: {}
+[1.403976] (-) TimerEvent: {}
+[1.505134] (-) TimerEvent: {}
+[1.605988] (-) TimerEvent: {}
+[1.702557] (final_project_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.706511] (-) TimerEvent: {}
+[1.807922] (-) TimerEvent: {}
+[1.908866] (-) TimerEvent: {}
+[2.010591] (-) TimerEvent: {}
+[2.017489] (final_project_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.114700] (-) TimerEvent: {}
+[2.130230] (final_project_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.218122] (-) TimerEvent: {}
+[2.244623] (final_project_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.254784] (final_project_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.319981] (-) TimerEvent: {}
+[2.373176] (final_project_interface) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.373727] (final_project_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.373934] (final_project_interface) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.374086] (final_project_interface) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.420862] (-) TimerEvent: {}
+[2.456833] (final_project_interface) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.521013] (-) TimerEvent: {}
+[2.599637] (final_project_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.621554] (-) TimerEvent: {}
+[2.697180] (final_project_interface) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.704181] (final_project_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.708873] (final_project_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.721856] (-) TimerEvent: {}
+[2.729562] (final_project_interface) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.822636] (-) TimerEvent: {}
+[2.902752] (final_project_interface) StdoutLine: {'line': b'-- Generating done\n'}
+[2.914425] (final_project_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/ys/robot_ws/build/final_project_interface\n'}
+[2.922784] (-) TimerEvent: {}
+[2.941661] (final_project_interface) CommandEnded: {'returncode': 0}
+[2.947609] (final_project_interface) JobProgress: {'identifier': 'final_project_interface', 'progress': 'build'}
+[2.947737] (final_project_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ys/robot_ws/build/final_project_interface', '--', '-j1', '-l1'], 'cwd': '/home/ys/robot_ws/build/final_project_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ys'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1588'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ys/ws_moveit2/install/moveit_visual_tools/lib:/home/ys/ws_moveit2/install/rviz_visual_tools/lib:/home/ys/robot_ws/install/teleop_twist_joy/lib:/home/ys/robot_ws/install/my_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ys'), ('OLDPWD', '/home/ys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15891'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ys/ws_moveit2/install:/home/ys/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ys'), ('JOURNAL_STREAM', '8:36975'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ys-VirtualBox:@/tmp/.ICE-unix/1637,unix/ys-VirtualBox:/tmp/.ICE-unix/1637'), ('INVOCATION_ID', '641282e2db214f61b1ad119d33d2960d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ys/ws_moveit2/install/moveit2_tutorials:/home/ys/ws_moveit2/install/moveit_visual_tools:/home/ys/ws_moveit2/install/rviz_visual_tools:/home/ys/ws_moveit2/install/moveit_resources:/home/ys/ws_moveit2/install/moveit_resources_pr2_description:/home/ys/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_panda_description:/home/ys/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_fanuc_description:/home/ys/robot_ws/install/teleop_twist_joy:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/my_interface_example:/home/ys/robot_ws/install/final_project:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:54d36223-fc1b-4e11-9b3d-4f5a495c54e9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ys/robot_ws/build/final_project_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ys/robot_ws/build/sum_rclpy_srvcli_pkg:/home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/python_parameters:/home/ys/robot_ws/install/python_parameters/lib/python3.8/site-packages:/home/ys/robot_ws/build/first_rclpy_pkg:/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages:/home/ys/robot_ws/build/final_project:/home/ys/robot_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ys/ws_moveit2/install/moveit2_tutorials:/home/ys/ws_moveit2/install/moveit_visual_tools:/home/ys/ws_moveit2/install/rviz_visual_tools:/home/ys/ws_moveit2/install/moveit_resources:/home/ys/ws_moveit2/install/moveit_resources_pr2_description:/home/ys/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_panda_description:/home/ys/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_fanuc_description:/home/ys/robot_ws/install/teleop_twist_joy:/home/ys/robot_ws/install/my_interface_example:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/final_project:/opt/ros/foxy')]), 'shell': False}
+[3.028590] (-) TimerEvent: {}
+[3.104741] (final_project_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final_project_interface__cpp\x1b[0m\n'}
+[3.130135] (-) TimerEvent: {}
+[3.131901] (final_project_interface) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.234146] (-) TimerEvent: {}
+[3.335098] (-) TimerEvent: {}
+[3.438124] (-) TimerEvent: {}
+[3.539220] (-) TimerEvent: {}
+[3.642170] (-) TimerEvent: {}
+[3.744622] (-) TimerEvent: {}
+[3.845125] (-) TimerEvent: {}
+[3.945664] (-) TimerEvent: {}
+[4.046122] (-) TimerEvent: {}
+[4.152430] (-) TimerEvent: {}
+[4.254198] (-) TimerEvent: {}
+[4.354717] (-) TimerEvent: {}
+[4.458167] (-) TimerEvent: {}
+[4.562136] (-) TimerEvent: {}
+[4.666105] (-) TimerEvent: {}
+[4.749790] (final_project_interface) StdoutLine: {'line': b'[  3%] Built target final_project_interface__cpp\n'}
+[4.766590] (-) TimerEvent: {}
+[4.774515] (final_project_interface) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.866783] (-) TimerEvent: {}
+[4.969316] (-) TimerEvent: {}
+[5.072803] (-) TimerEvent: {}
+[5.178161] (-) TimerEvent: {}
+[5.282163] (-) TimerEvent: {}
+[5.385923] (-) TimerEvent: {}
+[5.487920] (-) TimerEvent: {}
+[5.590547] (-) TimerEvent: {}
+[5.691061] (-) TimerEvent: {}
+[5.791474] (-) TimerEvent: {}
+[5.891926] (-) TimerEvent: {}
+[5.995778] (-) TimerEvent: {}
+[6.097122] (-) TimerEvent: {}
+[6.130982] (final_project_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final_project_interface__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[6.168724] (final_project_interface) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/final_project_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/final_project_interface/action/detail/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[6.199585] (-) TimerEvent: {}
+[6.303055] (-) TimerEvent: {}
+[6.404558] (-) TimerEvent: {}
+[6.509562] (-) TimerEvent: {}
+[6.610474] (-) TimerEvent: {}
+[6.716216] (-) TimerEvent: {}
+[6.825187] (-) TimerEvent: {}
+[6.925660] (-) TimerEvent: {}
+[7.026332] (-) TimerEvent: {}
+[7.130142] (-) TimerEvent: {}
+[7.213238] (final_project_interface) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libfinal_project_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[7.230343] (-) TimerEvent: {}
+[7.330864] (-) TimerEvent: {}
+[7.414495] (final_project_interface) StdoutLine: {'line': b'[ 12%] Built target final_project_interface__rosidl_typesupport_introspection_cpp\n'}
+[7.431377] (-) TimerEvent: {}
+[7.440225] (final_project_interface) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.531525] (-) TimerEvent: {}
+[7.632967] (-) TimerEvent: {}
+[7.738151] (-) TimerEvent: {}
+[7.838909] (-) TimerEvent: {}
+[7.943028] (-) TimerEvent: {}
+[8.043478] (-) TimerEvent: {}
+[8.143866] (-) TimerEvent: {}
+[8.246130] (-) TimerEvent: {}
+[8.347497] (-) TimerEvent: {}
+[8.447967] (-) TimerEvent: {}
+[8.554127] (-) TimerEvent: {}
+[8.655014] (-) TimerEvent: {}
+[8.755410] (-) TimerEvent: {}
+[8.857993] (-) TimerEvent: {}
+[8.958543] (-) TimerEvent: {}
+[9.026995] (final_project_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final_project_interface__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[9.058666] (-) TimerEvent: {}
+[9.095522] (final_project_interface) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/final_project_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/final_project_interface/action/detail/dds_fastrtps/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[9.160476] (-) TimerEvent: {}
+[9.266171] (-) TimerEvent: {}
+[9.367070] (-) TimerEvent: {}
+[9.470153] (-) TimerEvent: {}
+[9.576225] (-) TimerEvent: {}
+[9.678115] (-) TimerEvent: {}
+[9.782152] (-) TimerEvent: {}
+[9.882963] (-) TimerEvent: {}
+[9.986416] (-) TimerEvent: {}
+[10.086956] (-) TimerEvent: {}
+[10.187379] (-) TimerEvent: {}
+[10.292160] (-) TimerEvent: {}
+[10.395474] (-) TimerEvent: {}
+[10.494300] (final_project_interface) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking CXX shared library libfinal_project_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.496707] (-) TimerEvent: {}
+[10.602498] (-) TimerEvent: {}
+[10.703032] (-) TimerEvent: {}
+[10.803555] (-) TimerEvent: {}
+[10.809225] (final_project_interface) StdoutLine: {'line': b'[ 22%] Built target final_project_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[10.839228] (final_project_interface) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[10.903679] (-) TimerEvent: {}
+[11.005928] (-) TimerEvent: {}
+[11.125804] (-) TimerEvent: {}
+[11.226725] (-) TimerEvent: {}
+[11.327180] (-) TimerEvent: {}
+[11.427628] (-) TimerEvent: {}
+[11.528101] (-) TimerEvent: {}
+[11.628566] (-) TimerEvent: {}
+[11.730116] (-) TimerEvent: {}
+[11.834167] (-) TimerEvent: {}
+[11.934854] (-) TimerEvent: {}
+[12.038130] (-) TimerEvent: {}
+[12.141300] (-) TimerEvent: {}
+[12.250155] (-) TimerEvent: {}
+[12.354148] (-) TimerEvent: {}
+[12.455108] (-) TimerEvent: {}
+[12.555568] (-) TimerEvent: {}
+[12.618264] (final_project_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final_project_interface__rosidl_generator_c\x1b[0m\n'}
+[12.647835] (final_project_interface) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding C object CMakeFiles/final_project_interface__rosidl_generator_c.dir/rosidl_generator_c/final_project_interface/action/detail/fibonacci__functions.c.o\x1b[0m\n'}
+[12.655720] (-) TimerEvent: {}
+[12.762142] (-) TimerEvent: {}
+[12.867011] (-) TimerEvent: {}
+[12.878998] (final_project_interface) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking C shared library libfinal_project_interface__rosidl_generator_c.so\x1b[0m\n'}
+[12.968766] (-) TimerEvent: {}
+[13.004262] (final_project_interface) StdoutLine: {'line': b'[ 32%] Built target final_project_interface__rosidl_generator_c\n'}
+[13.032610] (final_project_interface) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[13.068889] (-) TimerEvent: {}
+[13.169751] (-) TimerEvent: {}
+[13.274124] (-) TimerEvent: {}
+[13.377809] (-) TimerEvent: {}
+[13.480790] (-) TimerEvent: {}
+[13.582132] (-) TimerEvent: {}
+[13.686144] (-) TimerEvent: {}
+[13.790191] (-) TimerEvent: {}
+[13.891839] (-) TimerEvent: {}
+[13.994316] (-) TimerEvent: {}
+[14.094721] (-) TimerEvent: {}
+[14.198859] (-) TimerEvent: {}
+[14.299268] (-) TimerEvent: {}
+[14.399714] (-) TimerEvent: {}
+[14.501425] (-) TimerEvent: {}
+[14.546214] (final_project_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final_project_interface__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[14.596809] (final_project_interface) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/final_project_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/final_project_interface/action/detail/fibonacci__type_support_c.cpp.o\x1b[0m\n'}
+[14.601552] (-) TimerEvent: {}
+[14.703111] (-) TimerEvent: {}
+[14.803622] (-) TimerEvent: {}
+[14.907092] (-) TimerEvent: {}
+[15.007570] (-) TimerEvent: {}
+[15.110141] (-) TimerEvent: {}
+[15.213408] (-) TimerEvent: {}
+[15.313903] (-) TimerEvent: {}
+[15.414592] (-) TimerEvent: {}
+[15.515119] (-) TimerEvent: {}
+[15.615642] (-) TimerEvent: {}
+[15.638697] (final_project_interface) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libfinal_project_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[15.718185] (-) TimerEvent: {}
+[15.822153] (-) TimerEvent: {}
+[15.904159] (final_project_interface) StdoutLine: {'line': b'[ 41%] Built target final_project_interface__rosidl_typesupport_fastrtps_c\n'}
+[15.926146] (-) TimerEvent: {}
+[15.928508] (final_project_interface) StdoutLine: {'line': b'[ 45%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[16.026627] (-) TimerEvent: {}
+[16.127022] (-) TimerEvent: {}
+[16.227451] (-) TimerEvent: {}
+[16.331145] (-) TimerEvent: {}
+[16.438145] (-) TimerEvent: {}
+[16.542141] (-) TimerEvent: {}
+[16.642596] (-) TimerEvent: {}
+[16.750134] (-) TimerEvent: {}
+[16.850482] (-) TimerEvent: {}
+[16.958835] (-) TimerEvent: {}
+[17.064384] (-) TimerEvent: {}
+[17.164789] (-) TimerEvent: {}
+[17.265290] (-) TimerEvent: {}
+[17.317599] (final_project_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final_project_interface__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[17.352027] (final_project_interface) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/final_project_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/final_project_interface/action/detail/fibonacci__type_support.c.o\x1b[0m\n'}
+[17.366842] (-) TimerEvent: {}
+[17.467297] (-) TimerEvent: {}
+[17.474242] (final_project_interface) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libfinal_project_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[17.558585] (final_project_interface) StdoutLine: {'line': b'[ 51%] Built target final_project_interface__rosidl_typesupport_introspection_c\n'}
+[17.567422] (-) TimerEvent: {}
+[17.584668] (final_project_interface) StdoutLine: {'line': b'[ 54%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[17.667471] (-) TimerEvent: {}
+[17.770941] (-) TimerEvent: {}
+[17.871371] (-) TimerEvent: {}
+[17.978124] (-) TimerEvent: {}
+[18.078530] (-) TimerEvent: {}
+[18.178925] (-) TimerEvent: {}
+[18.281028] (-) TimerEvent: {}
+[18.381550] (-) TimerEvent: {}
+[18.483042] (-) TimerEvent: {}
+[18.583471] (-) TimerEvent: {}
+[18.687064] (-) TimerEvent: {}
+[18.691013] (final_project_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final_project_interface__rosidl_typesupport_c\x1b[0m\n'}
+[18.727329] (final_project_interface) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/final_project_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/final_project_interface/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[18.787719] (-) TimerEvent: {}
+[18.854221] (final_project_interface) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library libfinal_project_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[18.890145] (-) TimerEvent: {}
+[18.964361] (final_project_interface) StdoutLine: {'line': b'[ 61%] Built target final_project_interface__rosidl_typesupport_c\n'}
+[18.989757] (final_project_interface) StdoutLine: {'line': b'[ 64%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[18.990616] (-) TimerEvent: {}
+[19.094131] (-) TimerEvent: {}
+[19.198160] (-) TimerEvent: {}
+[19.302589] (-) TimerEvent: {}
+[19.403105] (-) TimerEvent: {}
+[19.506690] (-) TimerEvent: {}
+[19.607117] (-) TimerEvent: {}
+[19.707774] (-) TimerEvent: {}
+[19.814151] (-) TimerEvent: {}
+[19.918133] (-) TimerEvent: {}
+[20.020463] (-) TimerEvent: {}
+[20.074205] (final_project_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final_project_interface__rosidl_typesupport_cpp\x1b[0m\n'}
+[20.110754] (final_project_interface) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/final_project_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/final_project_interface/action/fibonacci__type_support.cpp.o\x1b[0m\n'}
+[20.120602] (-) TimerEvent: {}
+[20.224140] (-) TimerEvent: {}
+[20.324599] (-) TimerEvent: {}
+[20.426178] (-) TimerEvent: {}
+[20.530141] (-) TimerEvent: {}
+[20.630587] (-) TimerEvent: {}
+[20.734156] (-) TimerEvent: {}
+[20.835688] (-) TimerEvent: {}
+[20.936355] (-) TimerEvent: {}
+[20.998648] (final_project_interface) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libfinal_project_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[21.039164] (-) TimerEvent: {}
+[21.109877] (final_project_interface) StdoutLine: {'line': b'[ 70%] Built target final_project_interface__rosidl_typesupport_cpp\n'}
+[21.135939] (final_project_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final_project_interface\x1b[0m\n'}
+[21.139674] (-) TimerEvent: {}
+[21.163655] (final_project_interface) StdoutLine: {'line': b'[ 70%] Built target final_project_interface\n'}
+[21.189486] (final_project_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final_project_interface__py\x1b[0m\n'}
+[21.213680] (final_project_interface) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[21.239783] (-) TimerEvent: {}
+[21.345779] (-) TimerEvent: {}
+[21.446640] (-) TimerEvent: {}
+[21.549431] (-) TimerEvent: {}
+[21.649824] (-) TimerEvent: {}
+[21.754163] (-) TimerEvent: {}
+[21.857911] (-) TimerEvent: {}
+[21.958502] (-) TimerEvent: {}
+[22.062133] (-) TimerEvent: {}
+[22.166142] (-) TimerEvent: {}
+[22.266917] (-) TimerEvent: {}
+[22.370393] (-) TimerEvent: {}
+[22.470918] (-) TimerEvent: {}
+[22.571332] (-) TimerEvent: {}
+[22.677942] (-) TimerEvent: {}
+[22.778433] (-) TimerEvent: {}
+[22.879069] (-) TimerEvent: {}
+[22.979780] (-) TimerEvent: {}
+[23.084000] (-) TimerEvent: {}
+[23.184432] (-) TimerEvent: {}
+[23.290132] (-) TimerEvent: {}
+[23.390934] (-) TimerEvent: {}
+[23.491453] (-) TimerEvent: {}
+[23.592850] (-) TimerEvent: {}
+[23.695513] (-) TimerEvent: {}
+[23.795970] (-) TimerEvent: {}
+[23.896379] (-) TimerEvent: {}
+[23.996855] (-) TimerEvent: {}
+[24.102132] (-) TimerEvent: {}
+[24.206137] (-) TimerEvent: {}
+[24.314822] (-) TimerEvent: {}
+[24.422200] (-) TimerEvent: {}
+[24.526114] (-) TimerEvent: {}
+[24.627727] (-) TimerEvent: {}
+[24.730210] (-) TimerEvent: {}
+[24.739489] (final_project_interface) StdoutLine: {'line': b'[ 74%] Built target final_project_interface__py\n'}
+[24.774237] (final_project_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final_project_interface__python\x1b[0m\n'}
+[24.830394] (-) TimerEvent: {}
+[24.842221] (final_project_interface) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/final_project_interface__python.dir/rosidl_generator_py/final_project_interface/action/_fibonacci_s.c.o\x1b[0m\n'}
+[24.934836] (-) TimerEvent: {}
+[25.035260] (-) TimerEvent: {}
+[25.135890] (-) TimerEvent: {}
+[25.236369] (-) TimerEvent: {}
+[25.245252] (final_project_interface) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/final_project_interface/libfinal_project_interface__python.so\x1b[0m\n'}
+[25.337489] (-) TimerEvent: {}
+[25.362255] (final_project_interface) StdoutLine: {'line': b'[ 80%] Built target final_project_interface__python\n'}
+[25.390699] (final_project_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final_project_interface__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[25.437610] (-) TimerEvent: {}
+[25.439755] (final_project_interface) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/final_project_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/final_project_interface/_final_project_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[25.538003] (-) TimerEvent: {}
+[25.643418] (-) TimerEvent: {}
+[25.731191] (final_project_interface) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/final_project_interface/final_project_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[25.743578] (-) TimerEvent: {}
+[25.835732] (final_project_interface) StdoutLine: {'line': b'[ 87%] Built target final_project_interface__rosidl_typesupport_c__pyext\n'}
+[25.843702] (-) TimerEvent: {}
+[25.861796] (final_project_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final_project_interface__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[25.919049] (final_project_interface) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/final_project_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/final_project_interface/_final_project_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[25.946244] (-) TimerEvent: {}
+[26.046652] (-) TimerEvent: {}
+[26.150152] (-) TimerEvent: {}
+[26.226286] (final_project_interface) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/final_project_interface/final_project_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.254158] (-) TimerEvent: {}
+[26.358162] (-) TimerEvent: {}
+[26.419545] (final_project_interface) StdoutLine: {'line': b'[ 93%] Built target final_project_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[26.443607] (final_project_interface) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final_project_interface__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[26.458385] (-) TimerEvent: {}
+[26.498545] (final_project_interface) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/final_project_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/final_project_interface/_final_project_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[26.562136] (-) TimerEvent: {}
+[26.662547] (-) TimerEvent: {}
+[26.763912] (-) TimerEvent: {}
+[26.785571] (final_project_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/final_project_interface/final_project_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[26.865022] (-) TimerEvent: {}
+[26.892851] (final_project_interface) StdoutLine: {'line': b'[100%] Built target final_project_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[26.921717] (final_project_interface) CommandEnded: {'returncode': 0}
+[26.965152] (-) TimerEvent: {}
+[27.047523] (final_project_interface) JobProgress: {'identifier': 'final_project_interface', 'progress': 'install'}
+[27.065270] (-) TimerEvent: {}
+[27.071188] (final_project_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ys/robot_ws/build/final_project_interface'], 'cwd': '/home/ys/robot_ws/build/final_project_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ys'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1588'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ys/ws_moveit2/install/moveit_visual_tools/lib:/home/ys/ws_moveit2/install/rviz_visual_tools/lib:/home/ys/robot_ws/install/teleop_twist_joy/lib:/home/ys/robot_ws/install/my_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ys'), ('OLDPWD', '/home/ys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15891'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ys/ws_moveit2/install:/home/ys/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ys'), ('JOURNAL_STREAM', '8:36975'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ys-VirtualBox:@/tmp/.ICE-unix/1637,unix/ys-VirtualBox:/tmp/.ICE-unix/1637'), ('INVOCATION_ID', '641282e2db214f61b1ad119d33d2960d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ys/ws_moveit2/install/moveit2_tutorials:/home/ys/ws_moveit2/install/moveit_visual_tools:/home/ys/ws_moveit2/install/rviz_visual_tools:/home/ys/ws_moveit2/install/moveit_resources:/home/ys/ws_moveit2/install/moveit_resources_pr2_description:/home/ys/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_panda_description:/home/ys/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_fanuc_description:/home/ys/robot_ws/install/teleop_twist_joy:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/my_interface_example:/home/ys/robot_ws/install/final_project:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:54d36223-fc1b-4e11-9b3d-4f5a495c54e9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ys/robot_ws/build/final_project_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ys/robot_ws/build/sum_rclpy_srvcli_pkg:/home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/python_parameters:/home/ys/robot_ws/install/python_parameters/lib/python3.8/site-packages:/home/ys/robot_ws/build/first_rclpy_pkg:/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages:/home/ys/robot_ws/build/final_project:/home/ys/robot_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ys/ws_moveit2/install/moveit2_tutorials:/home/ys/ws_moveit2/install/moveit_visual_tools:/home/ys/ws_moveit2/install/rviz_visual_tools:/home/ys/ws_moveit2/install/moveit_resources:/home/ys/ws_moveit2/install/moveit_resources_pr2_description:/home/ys/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_panda_description:/home/ys/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_fanuc_description:/home/ys/robot_ws/install/teleop_twist_joy:/home/ys/robot_ws/install/my_interface_example:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/final_project:/opt/ros/foxy')]), 'shell': False}
+[27.102198] (final_project_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.103525] (final_project_interface) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[27.104673] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/ament_index/resource_index/rosidl_interfaces/final_project_interface\n'}
+[27.133859] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/action/detail/fibonacci__functions.h\n'}
+[27.154614] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/action/detail/fibonacci__struct.h\n'}
+[27.169710] (-) TimerEvent: {}
+[27.176199] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/action/detail/fibonacci__type_support.h\n'}
+[27.199274] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/action/fibonacci.h\n'}
+[27.222665] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[27.286122] (-) TimerEvent: {}
+[27.293107] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/environment/library_path.sh\n'}
+[27.314205] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/environment/library_path.dsv\n'}
+[27.337698] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/action/detail/fibonacci__rosidl_typesupport_fastrtps_c.h\n'}
+[27.361851] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[27.382997] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/lib/libfinal_project_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[27.386585] (-) TimerEvent: {}
+[27.410448] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/action/detail/fibonacci__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[27.430212] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[27.455394] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/lib/libfinal_project_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[27.481286] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/action/detail/fibonacci__rosidl_typesupport_introspection_c.h\n'}
+[27.487122] (-) TimerEvent: {}
+[27.499338] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[27.521828] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/action/detail/fibonacci__builder.hpp\n'}
+[27.545492] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/action/detail/fibonacci__struct.hpp\n'}
+[27.566302] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/action/detail/fibonacci__traits.hpp\n'}
+[27.586635] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/action/fibonacci.hpp\n'}
+[27.587301] (-) TimerEvent: {}
+[27.611415] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/include/final_project_interface/action/detail/fibonacci__rosidl_typesupport_introspection_cpp.hpp\n'}
+[27.633530] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/environment/pythonpath.sh\n'}
+[27.656501] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/environment/pythonpath.dsv\n'}
+[27.679295] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/lib/python3.8/site-packages/final_project_interface/__init__.py\n'}
+[27.687428] (-) TimerEvent: {}
+[27.702186] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/lib/python3.8/site-packages/final_project_interface/action/__init__.py\n'}
+[27.726224] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/lib/python3.8/site-packages/final_project_interface/action/_fibonacci.py\n'}
+[27.750680] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/lib/python3.8/site-packages/final_project_interface/final_project_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[27.770264] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/lib/python3.8/site-packages/final_project_interface/final_project_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[27.787580] (-) TimerEvent: {}
+[27.794945] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/lib/python3.8/site-packages/final_project_interface/final_project_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[27.818215] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/lib/libfinal_project_interface__python.so\n'}
+[27.839758] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/action/Fibonacci.idl\n'}
+[27.862863] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/action/Fibonacci.action\n'}
+[27.886229] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/ament_index/resource_index/package_run_dependencies/final_project_interface\n'}
+[27.887701] (-) TimerEvent: {}
+[27.908198] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/ament_index/resource_index/parent_prefix_path/final_project_interface\n'}
+[27.930928] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/environment/ament_prefix_path.sh\n'}
+[27.964344] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/environment/ament_prefix_path.dsv\n'}
+[27.990198] (-) TimerEvent: {}
+[27.990924] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/environment/path.sh\n'}
+[28.022214] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/environment/path.dsv\n'}
+[28.042208] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/local_setup.bash\n'}
+[28.067511] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/local_setup.sh\n'}
+[28.090290] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/local_setup.zsh\n'}
+[28.090524] (-) TimerEvent: {}
+[28.111569] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/local_setup.dsv\n'}
+[28.134381] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/package.dsv\n'}
+[28.158218] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/ament_index/resource_index/packages/final_project_interface\n'}
+[28.178206] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[28.194139] (-) TimerEvent: {}
+[28.200201] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[28.223368] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[28.247113] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[28.268170] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[28.290219] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[28.296575] (-) TimerEvent: {}
+[28.314191] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[28.335070] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/final_project_interfaceConfig.cmake\n'}
+[28.358598] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/final_project_interfaceConfig-version.cmake\n'}
+[28.379596] (final_project_interface) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/package.xml\n'}
+[28.402175] (-) TimerEvent: {}
+[28.406609] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/lib/libfinal_project_interface__rosidl_generator_c.so\n'}
+[28.406804] (final_project_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ys/robot_ws/install/final_project_interface/lib/libfinal_project_interface__rosidl_generator_c.so" to ""\n'}
+[28.406902] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/lib/libfinal_project_interface__rosidl_typesupport_introspection_c.so\n'}
+[28.406994] (final_project_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ys/robot_ws/install/final_project_interface/lib/libfinal_project_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[28.407095] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/lib/libfinal_project_interface__rosidl_typesupport_c.so\n'}
+[28.407185] (final_project_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ys/robot_ws/install/final_project_interface/lib/libfinal_project_interface__rosidl_typesupport_c.so" to ""\n'}
+[28.407276] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/lib/libfinal_project_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[28.407368] (final_project_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ys/robot_ws/install/final_project_interface/lib/libfinal_project_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[28.407491] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/lib/libfinal_project_interface__rosidl_typesupport_cpp.so\n'}
+[28.410158] (final_project_interface) StdoutLine: {'line': b'-- Set runtime path of "/home/ys/robot_ws/install/final_project_interface/lib/libfinal_project_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[28.505757] (-) TimerEvent: {}
+[28.534620] (final_project_interface) StdoutLine: {'line': b"Compiling '/home/ys/robot_ws/install/final_project_interface/lib/python3.8/site-packages/final_project_interface/__init__.py'...\n"}
+[28.549907] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/final_project_interface__rosidl_generator_cExport.cmake\n'}
+[28.550483] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/final_project_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[28.550979] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/final_project_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[28.551345] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/final_project_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[28.551746] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/final_project_interface__rosidl_typesupport_cExport.cmake\n'}
+[28.554145] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/final_project_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[28.554576] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/final_project_interface__rosidl_generator_cppExport.cmake\n'}
+[28.555023] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/final_project_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[28.555386] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/final_project_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[28.555803] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/final_project_interface__rosidl_typesupport_cppExport.cmake\n'}
+[28.557385] (final_project_interface) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/final_project_interface/share/final_project_interface/cmake/final_project_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[28.569925] (final_project_interface) CommandEnded: {'returncode': 0}
+[28.605893] (-) TimerEvent: {}
+[28.708467] (-) TimerEvent: {}
+[28.786261] (final_project_interface) JobEnded: {'identifier': 'final_project_interface', 'rc': 0}
+[28.787497] (-) EventReactorShutdown: {}

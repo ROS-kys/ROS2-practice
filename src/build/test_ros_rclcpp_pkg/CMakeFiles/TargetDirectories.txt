@@ -1,0 +1,9 @@
+/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg/CMakeFiles/install/local.dir
+/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg/CMakeFiles/install.dir
+/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg/CMakeFiles/list_install_components.dir
+/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg/CMakeFiles/rebuild_cache.dir
+/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg/CMakeFiles/edit_cache.dir
+/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg/CMakeFiles/test.dir
+/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg/CMakeFiles/install/strip.dir
+/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg/CMakeFiles/test_ros_rclcpp_pkg_uninstall.dir
+/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg/CMakeFiles/uninstall.dir

@@ -1,0 +1,18 @@
+[0.805s] Invoking command in '/home/ys/robot_ws/build/final_project': PYTHONPATH=/home/ys/robot_ws/install/final_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/final_project --editable --build-directory /home/ys/robot_ws/build/final_project/build --no-deps install_data --install-dir /home/ys/robot_ws/install/final_project
+[1.569s] running develop
+[2.031s] running egg_info
+[2.032s] writing final_project.egg-info/PKG-INFO
+[2.033s] writing dependency_links to final_project.egg-info/dependency_links.txt
+[2.035s] writing entry points to final_project.egg-info/entry_points.txt
+[2.035s] writing requirements to final_project.egg-info/requires.txt
+[2.035s] writing top-level names to final_project.egg-info/top_level.txt
+[2.165s] reading manifest file 'final_project.egg-info/SOURCES.txt'
+[2.172s] writing manifest file 'final_project.egg-info/SOURCES.txt'
+[2.296s] running build_ext
+[2.297s] Creating /home/ys/robot_ws/install/final_project/lib/python3.8/site-packages/final-project.egg-link (link to .)
+[2.300s] Installing control_publisher script to /home/ys/robot_ws/install/final_project/lib/final_project
+[2.301s] Installing control_subscriber script to /home/ys/robot_ws/install/final_project/lib/final_project
+[2.302s] 
+[2.302s] Installed /home/ys/robot_ws/build/final_project
+[2.302s] running install_data
+[2.386s] Invoked command in '/home/ys/robot_ws/build/final_project' returned '0': PYTHONPATH=/home/ys/robot_ws/install/final_project/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/final_project --editable --build-directory /home/ys/robot_ws/build/final_project/build --no-deps install_data --install-dir /home/ys/robot_ws/install/final_project

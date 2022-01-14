@@ -1,0 +1,6 @@
+Invoking command in '/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ys/robot_ws/src/test_ros_rclcpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg
+Invoked command in '/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ys/robot_ws/src/test_ros_rclcpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg
+Invoking command in '/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ys/robot_ws/src/build/test_ros_rclcpp_pkg -- -j1 -l1
+Invoked command in '/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ys/robot_ws/src/build/test_ros_rclcpp_pkg -- -j1 -l1
+Invoking command in '/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ys/robot_ws/src/build/test_ros_rclcpp_pkg
+Invoked command in '/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ys/robot_ws/src/build/test_ros_rclcpp_pkg

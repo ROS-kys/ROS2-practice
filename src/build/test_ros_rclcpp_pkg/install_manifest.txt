@@ -1,0 +1,15 @@
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/ament_index/resource_index/package_run_dependencies/test_ros_rclcpp_pkg
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/ament_index/resource_index/parent_prefix_path/test_ros_rclcpp_pkg
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/environment/ament_prefix_path.sh
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/environment/ament_prefix_path.dsv
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/environment/path.sh
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/environment/path.dsv
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/local_setup.bash
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/local_setup.sh
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/local_setup.zsh
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/local_setup.dsv
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/package.dsv
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/ament_index/resource_index/packages/test_ros_rclcpp_pkg
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/cmake/test_ros_rclcpp_pkgConfig.cmake
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/cmake/test_ros_rclcpp_pkgConfig-version.cmake
+/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/package.xml

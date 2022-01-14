@@ -1,0 +1,25 @@
+[0.491s] Invoking command in '/home/ys/robot_ws/build/python_parameters': PYTHONPATH=/home/ys/robot_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/python_parameters --editable --build-directory /home/ys/robot_ws/build/python_parameters/build --no-deps install_data --install-dir /home/ys/robot_ws/install/python_parameters
+[1.016s] running develop
+[1.227s] running egg_info
+[1.227s] creating python_parameters.egg-info
+[1.227s] writing python_parameters.egg-info/PKG-INFO
+[1.228s] writing dependency_links to python_parameters.egg-info/dependency_links.txt
+[1.228s] writing entry points to python_parameters.egg-info/entry_points.txt
+[1.229s] writing requirements to python_parameters.egg-info/requires.txt
+[1.229s] writing top-level names to python_parameters.egg-info/top_level.txt
+[1.237s] writing manifest file 'python_parameters.egg-info/SOURCES.txt'
+[1.327s] reading manifest file 'python_parameters.egg-info/SOURCES.txt'
+[1.328s] writing manifest file 'python_parameters.egg-info/SOURCES.txt'
+[1.413s] running build_ext
+[1.414s] Creating /home/ys/robot_ws/install/python_parameters/lib/python3.8/site-packages/site.py
+[1.417s] Creating /home/ys/robot_ws/install/python_parameters/lib/python3.8/site-packages/python-parameters.egg-link (link to .)
+[1.418s] Installing param_talker script to /home/ys/robot_ws/install/python_parameters/lib/python_parameters
+[1.419s] 
+[1.419s] Installed /home/ys/robot_ws/build/python_parameters
+[1.419s] running install_data
+[1.420s] creating /home/ys/robot_ws/install/python_parameters/share/ament_index
+[1.420s] creating /home/ys/robot_ws/install/python_parameters/share/ament_index/resource_index
+[1.420s] creating /home/ys/robot_ws/install/python_parameters/share/ament_index/resource_index/packages
+[1.420s] copying resource/python_parameters -> /home/ys/robot_ws/install/python_parameters/share/ament_index/resource_index/packages
+[1.420s] copying package.xml -> /home/ys/robot_ws/install/python_parameters/share/python_parameters
+[1.465s] Invoked command in '/home/ys/robot_ws/build/python_parameters' returned '0': PYTHONPATH=/home/ys/robot_ws/install/python_parameters/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/python_parameters --editable --build-directory /home/ys/robot_ws/build/python_parameters/build --no-deps install_data --install-dir /home/ys/robot_ws/install/python_parameters

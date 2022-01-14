@@ -1,0 +1,108 @@
+[0.034s] Invoking command in '/home/ys/robot_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ys/robot_ws/src/teleop_twist_joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ys/robot_ws/install/teleop_twist_joy
+[0.323s] -- The C compiler identification is GNU 9.3.0
+[0.551s] -- The CXX compiler identification is GNU 9.3.0
+[0.570s] -- Check for working C compiler: /usr/bin/cc
+[0.665s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.671s] -- Detecting C compiler ABI info
+[0.774s] -- Detecting C compiler ABI info - done
+[0.798s] -- Detecting C compile features
+[0.799s] -- Detecting C compile features - done
+[0.805s] -- Check for working CXX compiler: /usr/bin/c++
+[0.903s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.905s] -- Detecting CXX compiler ABI info
+[1.007s] -- Detecting CXX compiler ABI info - done
+[1.032s] -- Detecting CXX compile features
+[1.033s] -- Detecting CXX compile features - done
+[1.047s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.085s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.085s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.403s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.460s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.545s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.565s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.685s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.746s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.886s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.104s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.221s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.225s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.228s] -- Looking for pthread.h
+[2.330s] -- Looking for pthread.h - found
+[2.331s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.422s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.423s] -- Looking for pthread_create in pthreads
+[2.495s] -- Looking for pthread_create in pthreads - not found
+[2.495s] -- Looking for pthread_create in pthread
+[2.580s] -- Looking for pthread_create in pthread - found
+[2.582s] -- Found Threads: TRUE  
+[2.924s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.059s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.250s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY
+[3.349s] -- Performing Test COMPILER_HAS_HIDDEN_VISIBILITY - Success
+[3.351s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY
+[3.448s] -- Performing Test COMPILER_HAS_HIDDEN_INLINE_VISIBILITY - Success
+[3.449s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR
+[3.547s] -- Performing Test COMPILER_HAS_DEPRECATED_ATTR - Success
+[3.571s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.698s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[3.727s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[3.741s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[3.741s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.741s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[3.741s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[3.770s] -- Found PythonExtra: .so  
+[3.811s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.812s] -- Configured cppcheck include dirs: /home/ys/robot_ws/src/teleop_twist_joy/include
+[3.812s] -- Configured cppcheck exclude dirs and/or files: 
+[3.814s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.816s] -- Added test 'lint_cmake' to check CMake code style
+[3.818s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.821s] -- Added test 'xmllint' to check XML markup files
+[3.838s] -- Configuring done
+[3.869s] -- Generating done
+[3.872s] -- Build files have been written to: /home/ys/robot_ws/build/teleop_twist_joy
+[3.890s] Invoked command in '/home/ys/robot_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ys/robot_ws/src/teleop_twist_joy -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ys/robot_ws/install/teleop_twist_joy
+[3.891s] Invoking command in '/home/ys/robot_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ys/robot_ws/build/teleop_twist_joy -- -j1 -l1
+[3.961s] [35m[1mScanning dependencies of target teleop_twist_joy[0m
+[4.189s] [ 25%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy.dir/src/teleop_twist_joy.cpp.o[0m
+[15.971s] [ 50%] [32m[1mLinking CXX shared library libteleop_twist_joy.so[0m
+[16.424s] [ 50%] Built target teleop_twist_joy
+[16.435s] [35m[1mScanning dependencies of target teleop_twist_joy_node[0m
+[16.485s] [ 75%] [32mBuilding CXX object CMakeFiles/teleop_twist_joy_node.dir/src/teleop_node.cpp.o[0m
+[18.894s] [100%] [32m[1mLinking CXX executable teleop_node[0m
+[19.118s] [100%] Built target teleop_twist_joy_node
+[19.132s] Invoked command in '/home/ys/robot_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ys/robot_ws/build/teleop_twist_joy -- -j1 -l1
+[19.172s] Invoking command in '/home/ys/robot_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ys/robot_ws/build/teleop_twist_joy
+[19.184s] -- Install configuration: ""
+[19.185s] -- Execute custom install script
+[19.186s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+[19.196s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+[19.206s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.hpp
+[19.219s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy_export.h
+[19.229s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py
+[19.239s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+[19.248s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+[19.258s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+[19.267s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+[19.276s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml
+[19.286s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh
+[19.296s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv
+[19.305s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy
+[19.318s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy
+[19.327s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh
+[19.337s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv
+[19.347s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh
+[19.356s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv
+[19.366s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash
+[19.376s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh
+[19.385s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh
+[19.395s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv
+[19.405s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv
+[19.417s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy
+[19.427s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy
+[19.436s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[19.446s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[19.456s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+[19.465s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+[19.474s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+[19.487s] Invoked command in '/home/ys/robot_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ys/robot_ws/build/teleop_twist_joy

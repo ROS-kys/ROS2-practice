@@ -1,0 +1,385 @@
+[0.000000] (-) TimerEvent: {}
+[0.000200] (-) JobUnselected: {'identifier': 'first_rclpy_pkg'}
+[0.000238] (-) JobUnselected: {'identifier': 'sum_rclpy_srvcli_pkg'}
+[0.000266] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.000293] (-) JobUnselected: {'identifier': 'test_ros_rclcpp_pkg'}
+[0.000319] (-) JobUnselected: {'identifier': 'test_ros_rclpy_pkg'}
+[0.000350] (my_interface_example) JobQueued: {'identifier': 'my_interface_example', 'dependencies': OrderedDict()}
+[0.000379] (my_interface_example) JobStarted: {'identifier': 'my_interface_example'}
+[0.017798] (my_interface_example) JobProgress: {'identifier': 'my_interface_example', 'progress': 'cmake'}
+[0.018091] (my_interface_example) Command: {'cmd': ['/usr/bin/cmake', '/home/ys/robot_ws/src/my_interface_example', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ys/robot_ws/install/my_interface_example'], 'cwd': '/home/ys/robot_ws/build/my_interface_example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ys'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1757'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ys'), ('OLDPWD', '/home/ys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21033'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ys'), ('JOURNAL_STREAM', '8:37248'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ys-VirtualBox:@/tmp/.ICE-unix/1806,unix/ys-VirtualBox:/tmp/.ICE-unix/1806'), ('INVOCATION_ID', 'c0d1f28ac74748fcb2a1811407ce4afd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:24c29409-ac71-47c6-b70a-c1217ab7d132'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ys/robot_ws/build/my_interface_example'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.094330] (-) TimerEvent: {}
+[0.175903] (my_interface_example) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.194423] (-) TimerEvent: {}
+[0.295410] (-) TimerEvent: {}
+[0.343043] (my_interface_example) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.358861] (my_interface_example) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.395943] (-) TimerEvent: {}
+[0.454976] (my_interface_example) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.457747] (my_interface_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.496526] (-) TimerEvent: {}
+[0.544424] (my_interface_example) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.568766] (my_interface_example) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.569977] (my_interface_example) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.575386] (my_interface_example) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.597077] (-) TimerEvent: {}
+[0.695342] (my_interface_example) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.697477] (my_interface_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.697686] (-) TimerEvent: {}
+[0.798397] (-) TimerEvent: {}
+[0.800500] (my_interface_example) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.828214] (my_interface_example) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.829480] (my_interface_example) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.848278] (my_interface_example) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.889397] (my_interface_example) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.889848] (my_interface_example) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.898670] (-) TimerEvent: {}
+[0.999268] (-) TimerEvent: {}
+[1.099667] (-) TimerEvent: {}
+[1.200030] (-) TimerEvent: {}
+[1.259090] (my_interface_example) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.300177] (-) TimerEvent: {}
+[1.310805] (my_interface_example) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[1.321700] (my_interface_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.349413] (my_interface_example) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.400315] (-) TimerEvent: {}
+[1.501286] (-) TimerEvent: {}
+[1.531635] (my_interface_example) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.575113] (my_interface_example) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.601778] (-) TimerEvent: {}
+[1.702156] (-) TimerEvent: {}
+[1.736521] (my_interface_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.802266] (-) TimerEvent: {}
+[1.854347] (my_interface_example) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.902367] (-) TimerEvent: {}
+[2.003043] (-) TimerEvent: {}
+[2.104128] (-) TimerEvent: {}
+[2.108490] (my_interface_example) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[2.204293] (-) TimerEvent: {}
+[2.289137] (my_interface_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.304418] (-) TimerEvent: {}
+[2.306574] (my_interface_example) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.340585] (my_interface_example) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.344142] (my_interface_example) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[2.391785] (my_interface_example) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.392316] (my_interface_example) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.392536] (my_interface_example) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.392691] (my_interface_example) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.404504] (-) TimerEvent: {}
+[2.420550] (my_interface_example) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.485485] (my_interface_example) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.513406] (-) TimerEvent: {}
+[2.550751] (my_interface_example) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.555748] (my_interface_example) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.559213] (my_interface_example) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.580047] (my_interface_example) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.613617] (-) TimerEvent: {}
+[2.632585] (my_interface_example) StdoutLine: {'line': b'-- Generating done\n'}
+[2.638294] (my_interface_example) StdoutLine: {'line': b'-- Build files have been written to: /home/ys/robot_ws/build/my_interface_example\n'}
+[2.652641] (my_interface_example) CommandEnded: {'returncode': 0}
+[2.654037] (my_interface_example) JobProgress: {'identifier': 'my_interface_example', 'progress': 'build'}
+[2.654081] (my_interface_example) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ys/robot_ws/build/my_interface_example', '--', '-j1', '-l1'], 'cwd': '/home/ys/robot_ws/build/my_interface_example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ys'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1757'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ys'), ('OLDPWD', '/home/ys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21033'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ys'), ('JOURNAL_STREAM', '8:37248'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ys-VirtualBox:@/tmp/.ICE-unix/1806,unix/ys-VirtualBox:/tmp/.ICE-unix/1806'), ('INVOCATION_ID', 'c0d1f28ac74748fcb2a1811407ce4afd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:24c29409-ac71-47c6-b70a-c1217ab7d132'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ys/robot_ws/build/my_interface_example'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.707355] (my_interface_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interface_example__cpp\x1b[0m\n'}
+[2.713731] (-) TimerEvent: {}
+[2.719043] (my_interface_example) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.814629] (-) TimerEvent: {}
+[2.915152] (-) TimerEvent: {}
+[3.015540] (-) TimerEvent: {}
+[3.116230] (-) TimerEvent: {}
+[3.216640] (-) TimerEvent: {}
+[3.254969] (my_interface_example) StdoutLine: {'line': b'[  2%] Built target my_interface_example__cpp\n'}
+[3.265969] (my_interface_example) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.316752] (-) TimerEvent: {}
+[3.417361] (-) TimerEvent: {}
+[3.518405] (-) TimerEvent: {}
+[3.619055] (-) TimerEvent: {}
+[3.719623] (-) TimerEvent: {}
+[3.820449] (-) TimerEvent: {}
+[3.894387] (my_interface_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interface_example__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.911697] (my_interface_example) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/my_interface_example__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interface_example/msg/detail/num__type_support.cpp.o\x1b[0m\n'}
+[3.920565] (-) TimerEvent: {}
+[4.021199] (-) TimerEvent: {}
+[4.121768] (-) TimerEvent: {}
+[4.228468] (-) TimerEvent: {}
+[4.330398] (-) TimerEvent: {}
+[4.431656] (-) TimerEvent: {}
+[4.532847] (-) TimerEvent: {}
+[4.633236] (-) TimerEvent: {}
+[4.634117] (my_interface_example) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/my_interface_example__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_interface_example/srv/detail/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[4.734184] (-) TimerEvent: {}
+[4.834954] (-) TimerEvent: {}
+[4.935848] (-) TimerEvent: {}
+[5.036493] (-) TimerEvent: {}
+[5.043132] (my_interface_example) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface_example__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.109503] (my_interface_example) StdoutLine: {'line': b'[ 12%] Built target my_interface_example__rosidl_typesupport_introspection_cpp\n'}
+[5.122481] (my_interface_example) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.137445] (-) TimerEvent: {}
+[5.237833] (-) TimerEvent: {}
+[5.338236] (-) TimerEvent: {}
+[5.439165] (-) TimerEvent: {}
+[5.540191] (-) TimerEvent: {}
+[5.640944] (my_interface_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interface_example__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.641150] (-) TimerEvent: {}
+[5.681788] (my_interface_example) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/my_interface_example__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interface_example/msg/num__type_support.cpp.o\x1b[0m\n'}
+[5.742134] (-) TimerEvent: {}
+[5.842610] (-) TimerEvent: {}
+[5.947090] (-) TimerEvent: {}
+[6.047618] (-) TimerEvent: {}
+[6.087745] (my_interface_example) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/my_interface_example__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_interface_example/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[6.147796] (-) TimerEvent: {}
+[6.248495] (-) TimerEvent: {}
+[6.349363] (-) TimerEvent: {}
+[6.451161] (-) TimerEvent: {}
+[6.551859] (-) TimerEvent: {}
+[6.566823] (my_interface_example) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface_example__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.620997] (my_interface_example) StdoutLine: {'line': b'[ 23%] Built target my_interface_example__rosidl_typesupport_cpp\n'}
+[6.633245] (my_interface_example) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.651944] (-) TimerEvent: {}
+[6.752294] (-) TimerEvent: {}
+[6.852627] (-) TimerEvent: {}
+[6.953123] (-) TimerEvent: {}
+[7.054340] (-) TimerEvent: {}
+[7.154737] (-) TimerEvent: {}
+[7.255396] (-) TimerEvent: {}
+[7.303476] (my_interface_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interface_example__rosidl_generator_c\x1b[0m\n'}
+[7.316008] (my_interface_example) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/my_interface_example__rosidl_generator_c.dir/rosidl_generator_c/my_interface_example/msg/detail/num__functions.c.o\x1b[0m\n'}
+[7.355507] (-) TimerEvent: {}
+[7.364106] (my_interface_example) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/my_interface_example__rosidl_generator_c.dir/rosidl_generator_c/my_interface_example/srv/detail/add_three_ints__functions.c.o\x1b[0m\n'}
+[7.423191] (my_interface_example) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking C shared library libmy_interface_example__rosidl_generator_c.so\x1b[0m\n'}
+[7.455627] (-) TimerEvent: {}
+[7.463565] (my_interface_example) StdoutLine: {'line': b'[ 33%] Built target my_interface_example__rosidl_generator_c\n'}
+[7.474743] (my_interface_example) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.556466] (-) TimerEvent: {}
+[7.656982] (-) TimerEvent: {}
+[7.757540] (-) TimerEvent: {}
+[7.857901] (-) TimerEvent: {}
+[7.958237] (-) TimerEvent: {}
+[8.058782] (-) TimerEvent: {}
+[8.065902] (my_interface_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interface_example__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[8.098085] (my_interface_example) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/my_interface_example__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interface_example/msg/detail/dds_fastrtps/num__type_support.cpp.o\x1b[0m\n'}
+[8.158921] (-) TimerEvent: {}
+[8.259313] (-) TimerEvent: {}
+[8.359714] (-) TimerEvent: {}
+[8.460100] (-) TimerEvent: {}
+[8.560495] (-) TimerEvent: {}
+[8.661923] (-) TimerEvent: {}
+[8.762376] (-) TimerEvent: {}
+[8.821711] (my_interface_example) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/my_interface_example__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_interface_example/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[8.862843] (-) TimerEvent: {}
+[8.963381] (-) TimerEvent: {}
+[9.063769] (-) TimerEvent: {}
+[9.164167] (-) TimerEvent: {}
+[9.264744] (-) TimerEvent: {}
+[9.365496] (-) TimerEvent: {}
+[9.446176] (my_interface_example) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface_example__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.465640] (-) TimerEvent: {}
+[9.566020] (-) TimerEvent: {}
+[9.575222] (my_interface_example) StdoutLine: {'line': b'[ 43%] Built target my_interface_example__rosidl_typesupport_fastrtps_cpp\n'}
+[9.586398] (my_interface_example) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.666122] (-) TimerEvent: {}
+[9.767063] (-) TimerEvent: {}
+[9.868140] (-) TimerEvent: {}
+[9.968650] (-) TimerEvent: {}
+[10.069190] (-) TimerEvent: {}
+[10.170338] (-) TimerEvent: {}
+[10.189242] (my_interface_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interface_example__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[10.215751] (my_interface_example) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/my_interface_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interface_example/msg/detail/num__type_support_c.cpp.o\x1b[0m\n'}
+[10.270470] (-) TimerEvent: {}
+[10.371328] (-) TimerEvent: {}
+[10.471975] (-) TimerEvent: {}
+[10.572509] (-) TimerEvent: {}
+[10.673880] (-) TimerEvent: {}
+[10.704285] (my_interface_example) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/my_interface_example__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_interface_example/srv/detail/add_three_ints__type_support_c.cpp.o\x1b[0m\n'}
+[10.774855] (-) TimerEvent: {}
+[10.875387] (-) TimerEvent: {}
+[10.977017] (-) TimerEvent: {}
+[11.077558] (-) TimerEvent: {}
+[11.178086] (-) TimerEvent: {}
+[11.207325] (my_interface_example) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface_example__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.278205] (-) TimerEvent: {}
+[11.317129] (my_interface_example) StdoutLine: {'line': b'[ 53%] Built target my_interface_example__rosidl_typesupport_fastrtps_c\n'}
+[11.327861] (my_interface_example) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[11.378404] (-) TimerEvent: {}
+[11.479004] (-) TimerEvent: {}
+[11.579371] (-) TimerEvent: {}
+[11.680048] (-) TimerEvent: {}
+[11.781143] (-) TimerEvent: {}
+[11.881915] (-) TimerEvent: {}
+[11.895737] (my_interface_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interface_example__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[11.913095] (my_interface_example) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/my_interface_example__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interface_example/msg/detail/num__type_support.c.o\x1b[0m\n'}
+[11.952415] (my_interface_example) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/my_interface_example__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_interface_example/srv/detail/add_three_ints__type_support.c.o\x1b[0m\n'}
+[11.982470] (-) TimerEvent: {}
+[11.995962] (my_interface_example) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libmy_interface_example__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.034939] (my_interface_example) StdoutLine: {'line': b'[ 64%] Built target my_interface_example__rosidl_typesupport_introspection_c\n'}
+[12.045827] (my_interface_example) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.082600] (-) TimerEvent: {}
+[12.183500] (-) TimerEvent: {}
+[12.283898] (-) TimerEvent: {}
+[12.384299] (-) TimerEvent: {}
+[12.484693] (-) TimerEvent: {}
+[12.554426] (my_interface_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interface_example__rosidl_typesupport_c\x1b[0m\n'}
+[12.568369] (my_interface_example) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/my_interface_example__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interface_example/msg/num__type_support.cpp.o\x1b[0m\n'}
+[12.585627] (-) TimerEvent: {}
+[12.607736] (my_interface_example) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/my_interface_example__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_interface_example/srv/add_three_ints__type_support.cpp.o\x1b[0m\n'}
+[12.651643] (my_interface_example) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libmy_interface_example__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.686167] (-) TimerEvent: {}
+[12.704487] (my_interface_example) StdoutLine: {'line': b'[ 74%] Built target my_interface_example__rosidl_typesupport_c\n'}
+[12.718456] (my_interface_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interface_example\x1b[0m\n'}
+[12.729754] (my_interface_example) StdoutLine: {'line': b'[ 74%] Built target my_interface_example\n'}
+[12.742129] (my_interface_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interface_example__py\x1b[0m\n'}
+[12.753668] (my_interface_example) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.786574] (-) TimerEvent: {}
+[12.887973] (-) TimerEvent: {}
+[12.988491] (-) TimerEvent: {}
+[13.089036] (-) TimerEvent: {}
+[13.189413] (-) TimerEvent: {}
+[13.290238] (-) TimerEvent: {}
+[13.390878] (-) TimerEvent: {}
+[13.491291] (-) TimerEvent: {}
+[13.591660] (-) TimerEvent: {}
+[13.692029] (-) TimerEvent: {}
+[13.792421] (-) TimerEvent: {}
+[13.892766] (-) TimerEvent: {}
+[13.993504] (-) TimerEvent: {}
+[14.094082] (-) TimerEvent: {}
+[14.103375] (my_interface_example) StdoutLine: {'line': b'[ 76%] Built target my_interface_example__py\n'}
+[14.114459] (my_interface_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interface_example__python\x1b[0m\n'}
+[14.181444] (my_interface_example) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/my_interface_example__python.dir/rosidl_generator_py/my_interface_example/msg/_num_s.c.o\x1b[0m\n'}
+[14.194607] (-) TimerEvent: {}
+[14.295130] (-) TimerEvent: {}
+[14.302203] (my_interface_example) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/my_interface_example__python.dir/rosidl_generator_py/my_interface_example/srv/_add_three_ints_s.c.o\x1b[0m\n'}
+[14.395272] (-) TimerEvent: {}
+[14.450582] (my_interface_example) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interface_example/libmy_interface_example__python.so\x1b[0m\n'}
+[14.496191] (-) TimerEvent: {}
+[14.497306] (my_interface_example) StdoutLine: {'line': b'[ 84%] Built target my_interface_example__python\n'}
+[14.508275] (my_interface_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interface_example__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[14.534034] (my_interface_example) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/my_interface_example__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/my_interface_example/_my_interface_example_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[14.596281] (-) TimerEvent: {}
+[14.654773] (my_interface_example) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interface_example/my_interface_example_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.696394] (-) TimerEvent: {}
+[14.699915] (my_interface_example) StdoutLine: {'line': b'[ 89%] Built target my_interface_example__rosidl_typesupport_introspection_c__pyext\n'}
+[14.711344] (my_interface_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interface_example__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[14.737916] (my_interface_example) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/my_interface_example__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/my_interface_example/_my_interface_example_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[14.796892] (-) TimerEvent: {}
+[14.861885] (my_interface_example) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/my_interface_example/my_interface_example_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.897411] (-) TimerEvent: {}
+[14.966845] (my_interface_example) StdoutLine: {'line': b'[ 94%] Built target my_interface_example__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.980248] (my_interface_example) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target my_interface_example__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[14.997852] (-) TimerEvent: {}
+[15.002695] (my_interface_example) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/my_interface_example__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/my_interface_example/_my_interface_example_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[15.098390] (-) TimerEvent: {}
+[15.122068] (my_interface_example) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/my_interface_example/my_interface_example_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[15.166289] (my_interface_example) StdoutLine: {'line': b'[100%] Built target my_interface_example__rosidl_typesupport_c__pyext\n'}
+[15.188498] (my_interface_example) CommandEnded: {'returncode': 0}
+[15.198485] (-) TimerEvent: {}
+[15.261995] (my_interface_example) JobProgress: {'identifier': 'my_interface_example', 'progress': 'install'}
+[15.273146] (my_interface_example) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ys/robot_ws/build/my_interface_example'], 'cwd': '/home/ys/robot_ws/build/my_interface_example', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ys'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1757'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ys'), ('OLDPWD', '/home/ys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1546'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '21033'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ys'), ('JOURNAL_STREAM', '8:37248'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ys-VirtualBox:@/tmp/.ICE-unix/1806,unix/ys-VirtualBox:/tmp/.ICE-unix/1806'), ('INVOCATION_ID', 'c0d1f28ac74748fcb2a1811407ce4afd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:24c29409-ac71-47c6-b70a-c1217ab7d132'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ys/robot_ws/build/my_interface_example'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[15.285509] (my_interface_example) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.286753] (my_interface_example) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[15.287388] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/ament_index/resource_index/rosidl_interfaces/my_interface_example\n'}
+[15.297790] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/detail/num__functions.h\n'}
+[15.298553] (-) TimerEvent: {}
+[15.307554] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/detail/num__struct.h\n'}
+[15.317310] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/detail/num__type_support.h\n'}
+[15.329732] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/num.h\n'}
+[15.339222] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/rosidl_generator_c__visibility_control.h\n'}
+[15.348750] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/srv/add_three_ints.h\n'}
+[15.358234] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/srv/detail/add_three_ints__functions.h\n'}
+[15.367604] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/srv/detail/add_three_ints__struct.h\n'}
+[15.377010] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/srv/detail/add_three_ints__type_support.h\n'}
+[15.386572] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/environment/library_path.sh\n'}
+[15.395939] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/environment/library_path.dsv\n'}
+[15.399503] (-) TimerEvent: {}
+[15.406942] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/detail/num__rosidl_typesupport_fastrtps_c.h\n'}
+[15.416521] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[15.429358] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[15.441171] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/lib/libmy_interface_example__rosidl_typesupport_fastrtps_c.so\n'}
+[15.451485] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.460928] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[15.470530] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[15.479973] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/lib/libmy_interface_example__rosidl_typesupport_fastrtps_cpp.so\n'}
+[15.489880] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/detail/num__rosidl_typesupport_introspection_c.h\n'}
+[15.499165] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[15.499755] (-) TimerEvent: {}
+[15.508706] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h\n'}
+[15.518763] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/detail/num__builder.hpp\n'}
+[15.531231] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/detail/num__struct.hpp\n'}
+[15.540570] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/detail/num__traits.hpp\n'}
+[15.550087] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/num.hpp\n'}
+[15.559279] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/srv/add_three_ints.hpp\n'}
+[15.568907] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/srv/detail/add_three_ints__builder.hpp\n'}
+[15.578374] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/srv/detail/add_three_ints__struct.hpp\n'}
+[15.587496] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/srv/detail/add_three_ints__traits.hpp\n'}
+[15.597392] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.599852] (-) TimerEvent: {}
+[15.607038] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/include/my_interface_example/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[15.616897] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/environment/pythonpath.sh\n'}
+[15.630378] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/environment/pythonpath.dsv\n'}
+[15.642116] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages/my_interface_example/__init__.py\n'}
+[15.652169] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages/my_interface_example/msg/__init__.py\n'}
+[15.662345] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages/my_interface_example/msg/_num.py\n'}
+[15.677059] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages/my_interface_example/srv/__init__.py\n'}
+[15.689480] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages/my_interface_example/srv/_add_three_ints.py\n'}
+[15.700788] (-) TimerEvent: {}
+[15.701399] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages/my_interface_example/my_interface_example_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.712090] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages/my_interface_example/my_interface_example_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.721971] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages/my_interface_example/my_interface_example_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[15.735667] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/lib/libmy_interface_example__python.so\n'}
+[15.745479] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/msg/Num.idl\n'}
+[15.755348] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/srv/AddThreeInts.idl\n'}
+[15.764881] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/msg/Num.msg\n'}
+[15.774664] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/srv/AddThreeInts.srv\n'}
+[15.784041] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/srv/AddThreeInts_Request.msg\n'}
+[15.793630] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/srv/AddThreeInts_Response.msg\n'}
+[15.801771] (-) TimerEvent: {}
+[15.803365] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/ament_index/resource_index/package_run_dependencies/my_interface_example\n'}
+[15.812839] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/ament_index/resource_index/parent_prefix_path/my_interface_example\n'}
+[15.822351] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/environment/ament_prefix_path.sh\n'}
+[15.835057] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/environment/ament_prefix_path.dsv\n'}
+[15.846597] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/environment/path.sh\n'}
+[15.856187] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/environment/path.dsv\n'}
+[15.866333] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/local_setup.bash\n'}
+[15.878385] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/local_setup.sh\n'}
+[15.888118] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/local_setup.zsh\n'}
+[15.898123] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/local_setup.dsv\n'}
+[15.902448] (-) TimerEvent: {}
+[15.908543] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/package.dsv\n'}
+[15.918433] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/ament_index/resource_index/packages/my_interface_example\n'}
+[15.927972] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/rosidl_cmake-extras.cmake\n'}
+[15.940920] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[15.950725] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[15.960233] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[15.970075] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[15.979649] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[15.989188] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[15.998747] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/my_interface_exampleConfig.cmake\n'}
+[16.002651] (-) TimerEvent: {}
+[16.008492] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/my_interface_exampleConfig-version.cmake\n'}
+[16.036110] (my_interface_example) StdoutLine: {'line': b'-- Symlinking: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/package.xml\n'}
+[16.048020] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/lib/libmy_interface_example__rosidl_generator_c.so\n'}
+[16.048814] (my_interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/ys/robot_ws/install/my_interface_example/lib/libmy_interface_example__rosidl_generator_c.so" to ""\n'}
+[16.049182] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/lib/libmy_interface_example__rosidl_typesupport_introspection_c.so\n'}
+[16.049826] (my_interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/ys/robot_ws/install/my_interface_example/lib/libmy_interface_example__rosidl_typesupport_introspection_c.so" to ""\n'}
+[16.050150] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/lib/libmy_interface_example__rosidl_typesupport_c.so\n'}
+[16.050731] (my_interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/ys/robot_ws/install/my_interface_example/lib/libmy_interface_example__rosidl_typesupport_c.so" to ""\n'}
+[16.051059] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/lib/libmy_interface_example__rosidl_typesupport_introspection_cpp.so\n'}
+[16.051697] (my_interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/ys/robot_ws/install/my_interface_example/lib/libmy_interface_example__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[16.052051] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/lib/libmy_interface_example__rosidl_typesupport_cpp.so\n'}
+[16.052687] (my_interface_example) StdoutLine: {'line': b'-- Set runtime path of "/home/ys/robot_ws/install/my_interface_example/lib/libmy_interface_example__rosidl_typesupport_cpp.so" to ""\n'}
+[16.090658] (my_interface_example) StdoutLine: {'line': b"Compiling '/home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages/my_interface_example/__init__.py'...\n"}
+[16.096963] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/my_interface_example__rosidl_generator_cExport.cmake\n'}
+[16.097420] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/my_interface_example__rosidl_generator_cExport-noconfig.cmake\n'}
+[16.097833] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/my_interface_example__rosidl_typesupport_introspection_cExport.cmake\n'}
+[16.098222] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/my_interface_example__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[16.098629] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/my_interface_example__rosidl_typesupport_cExport.cmake\n'}
+[16.098987] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/my_interface_example__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[16.099367] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/my_interface_example__rosidl_generator_cppExport.cmake\n'}
+[16.099756] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/my_interface_example__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[16.100111] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/my_interface_example__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[16.100522] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/my_interface_example__rosidl_typesupport_cppExport.cmake\n'}
+[16.100896] (my_interface_example) StdoutLine: {'line': b'-- Installing: /home/ys/robot_ws/install/my_interface_example/share/my_interface_example/cmake/my_interface_example__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[16.104872] (my_interface_example) CommandEnded: {'returncode': 0}
+[16.105380] (-) TimerEvent: {}
+[16.205915] (-) TimerEvent: {}
+[16.213867] (my_interface_example) JobEnded: {'identifier': 'my_interface_example', 'rc': 0}
+[16.214900] (-) EventReactorShutdown: {}

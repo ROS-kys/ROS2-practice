@@ -1,0 +1,6 @@
+source;share/sum_rclpy_srvcli_pkg/hook/pythonpath.ps1
+source;share/sum_rclpy_srvcli_pkg/hook/pythonpath.dsv
+source;share/sum_rclpy_srvcli_pkg/hook/pythonpath.sh
+source;../../build/sum_rclpy_srvcli_pkg/share/sum_rclpy_srvcli_pkg/hook/pythonpath_develop.ps1
+source;../../build/sum_rclpy_srvcli_pkg/share/sum_rclpy_srvcli_pkg/hook/pythonpath_develop.dsv
+source;../../build/sum_rclpy_srvcli_pkg/share/sum_rclpy_srvcli_pkg/hook/pythonpath_develop.sh

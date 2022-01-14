@@ -1,0 +1,83 @@
+[0.000000] (-) TimerEvent: {}
+[0.001665] (-) JobUnselected: {'identifier': 'fibonacci_rclpy_action_pkg'}
+[0.001722] (-) JobUnselected: {'identifier': 'final_project'}
+[0.001752] (-) JobUnselected: {'identifier': 'first_rclpy_pkg'}
+[0.001780] (-) JobUnselected: {'identifier': 'my_action_interface'}
+[0.001807] (-) JobUnselected: {'identifier': 'my_interface_example'}
+[0.001834] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.001861] (-) JobUnselected: {'identifier': 'sum_rclpy_srvcli_pkg'}
+[0.001889] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.001916] (-) JobUnselected: {'identifier': 'test_ros_rclcpp_pkg'}
+[0.001943] (-) JobUnselected: {'identifier': 'test_ros_rclpy_pkg'}
+[0.001977] (final_project_interface) JobQueued: {'identifier': 'final_project_interface', 'dependencies': OrderedDict()}
+[0.002007] (final_project_interface) JobStarted: {'identifier': 'final_project_interface'}
+[0.039970] (final_project_interface) JobProgress: {'identifier': 'final_project_interface', 'progress': 'cmake'}
+[0.040982] (final_project_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/ys/robot_ws/src/final_project_interface', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/ys/robot_ws/install/final_project_interface'], 'cwd': '/home/ys/robot_ws/build/final_project_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ys'), ('LC_TIME', 'ko_KR.UTF-8'), ('SSH_AGENT_PID', '1588'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ys/ws_moveit2/install/moveit_visual_tools/lib:/home/ys/ws_moveit2/install/rviz_visual_tools/lib:/home/ys/robot_ws/install/teleop_twist_joy/lib:/home/ys/robot_ws/install/my_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ys'), ('OLDPWD', '/home/ys'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ko_KR.UTF-8'), ('MANAGERPID', '1376'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '15891'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ys/ws_moveit2/install:/home/ys/robot_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ys'), ('JOURNAL_STREAM', '8:36975'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ys'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/ys-VirtualBox:@/tmp/.ICE-unix/1637,unix/ys-VirtualBox:/tmp/.ICE-unix/1637'), ('INVOCATION_ID', '641282e2db214f61b1ad119d33d2960d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ko_KR.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ko_KR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ys/ws_moveit2/install/moveit2_tutorials:/home/ys/ws_moveit2/install/moveit_visual_tools:/home/ys/ws_moveit2/install/rviz_visual_tools:/home/ys/ws_moveit2/install/moveit_resources:/home/ys/ws_moveit2/install/moveit_resources_pr2_description:/home/ys/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_panda_description:/home/ys/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_fanuc_description:/home/ys/robot_ws/install/teleop_twist_joy:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/my_interface_example:/home/ys/robot_ws/install/final_project:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ko_KR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:54d36223-fc1b-4e11-9b3d-4f5a495c54e9'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ko_KR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ko_KR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ys/robot_ws/build/final_project_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ys/robot_ws/build/sum_rclpy_srvcli_pkg:/home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/python_parameters:/home/ys/robot_ws/install/python_parameters/lib/python3.8/site-packages:/home/ys/robot_ws/build/first_rclpy_pkg:/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages:/home/ys/robot_ws/build/final_project:/home/ys/robot_ws/install/final_project/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ko_KR.UTF-8'), ('LC_PAPER', 'ko_KR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ys/ws_moveit2/install/moveit2_tutorials:/home/ys/ws_moveit2/install/moveit_visual_tools:/home/ys/ws_moveit2/install/rviz_visual_tools:/home/ys/ws_moveit2/install/moveit_resources:/home/ys/ws_moveit2/install/moveit_resources_pr2_description:/home/ys/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_panda_description:/home/ys/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_fanuc_description:/home/ys/robot_ws/install/teleop_twist_joy:/home/ys/robot_ws/install/my_interface_example:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/final_project:/opt/ros/foxy')]), 'shell': False}
+[0.091425] (-) TimerEvent: {}
+[0.093516] (final_project_interface) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.191180] (final_project_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.191409] (-) TimerEvent: {}
+[0.191827] (final_project_interface) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.298076] (-) TimerEvent: {}
+[0.401331] (-) TimerEvent: {}
+[0.501797] (-) TimerEvent: {}
+[0.602696] (-) TimerEvent: {}
+[0.614425] (final_project_interface) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.634742] (final_project_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.644813] (final_project_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.653202] (final_project_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.702852] (-) TimerEvent: {}
+[0.806623] (-) TimerEvent: {}
+[0.890332] (final_project_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.906743] (-) TimerEvent: {}
+[0.988535] (final_project_interface) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.006857] (-) TimerEvent: {}
+[1.107741] (-) TimerEvent: {}
+[1.208593] (-) TimerEvent: {}
+[1.298483] (final_project_interface) StderrLine: {'line': b'CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[1.301668] (final_project_interface) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[1.303834] (final_project_interface) StderrLine: {'line': b'  final_project_interface --arguments-file\n'}
+[1.303971] (final_project_interface) StderrLine: {'line': b'  /home/ys/robot_ws/build/final_project_interface/rosidl_adapter__arguments__final_project_interface.json\n'}
+[1.304067] (final_project_interface) StderrLine: {'line': b'  --output-dir\n'}
+[1.304160] (final_project_interface) StderrLine: {'line': b'  /home/ys/robot_ws/build/final_project_interface/rosidl_adapter/final_project_interface\n'}
+[1.304252] (final_project_interface) StderrLine: {'line': b'  --output-file\n'}
+[1.304342] (final_project_interface) StderrLine: {'line': b'  /home/ys/robot_ws/build/final_project_interface/rosidl_adapter/final_project_interface.idls)\n'}
+[1.304433] (final_project_interface) StderrLine: {'line': b'  returned error code 1:\n'}
+[1.304523] (final_project_interface) StderrLine: {'line': b'\n'}
+[1.304613] (final_project_interface) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.304702] (final_project_interface) StderrLine: {'line': b'\n'}
+[1.304794] (final_project_interface) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[1.304926] (final_project_interface) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.305017] (final_project_interface) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[1.305106] (final_project_interface) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.305195] (final_project_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.305284] (final_project_interface) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.305373] (final_project_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.305463] (final_project_interface) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.305553] (final_project_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl\n'}
+[1.305642] (final_project_interface) StderrLine: {'line': b'      return convert_action_to_idl(\n'}
+[1.305739] (final_project_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl\n'}
+[1.305866] (final_project_interface) StderrLine: {'line': b'      action = parse_action_string(package_name, input_file.stem, content)\n'}
+[1.305957] (final_project_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 892, in parse_action_string\n'}
+[1.306047] (final_project_interface) StderrLine: {'line': b'      goal_message = parse_message_string(\n'}
+[1.306137] (final_project_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string\n'}
+[1.306227] (final_project_interface) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[1.306316] (final_project_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__\n'}
+[1.306405] (final_project_interface) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[1.306494] (final_project_interface) StderrLine: {'line': b'    File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[1.306583] (final_project_interface) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.306671] (final_project_interface) StderrLine: {'line': b'\n'}
+[1.306761] (final_project_interface) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'controlaction_Goal' is an\n"}
+[1.306868] (final_project_interface) StderrLine: {'line': b"  invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.306959] (final_project_interface) StderrLine: {'line': b'\n'}
+[1.319168] (-) TimerEvent: {}
+[1.320279] (final_project_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.320432] (final_project_interface) StderrLine: {'line': b'  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.320558] (final_project_interface) StderrLine: {'line': b'  CMakeLists.txt:25 (rosidl_generate_interfaces)\n'}
+[1.320650] (final_project_interface) StderrLine: {'line': b'\n'}
+[1.320742] (final_project_interface) StderrLine: {'line': b'\n'}
+[1.320833] (final_project_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.320937] (final_project_interface) StdoutLine: {'line': b'See also "/home/ys/robot_ws/build/final_project_interface/CMakeFiles/CMakeOutput.log".\n'}
+[1.331391] (final_project_interface) CommandEnded: {'returncode': 1}
+[1.376500] (final_project_interface) JobEnded: {'identifier': 'final_project_interface', 'rc': 1}
+[1.381836] (-) EventReactorShutdown: {}

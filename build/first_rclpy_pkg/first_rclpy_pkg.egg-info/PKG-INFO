@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: first-rclpy-pkg
+Version: 0.1.0
+Summary: ROS2 rclpy basic package
+Home-page: UNKNOWN
+Maintainer: yongsung
+Maintainer-email: dydtjd1015@kumoh.ac.kr
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN

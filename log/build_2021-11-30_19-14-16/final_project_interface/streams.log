@@ -1,0 +1,54 @@
+[0.038s] Invoking command in '/home/ys/robot_ws/build/final_project_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/final_project:/opt/ros/foxy /usr/bin/cmake /home/ys/robot_ws/src/final_project_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ys/robot_ws/install/final_project_interface
+[0.093s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.230s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.230s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.818s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.839s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.859s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.872s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.317s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.494s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.093s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[2.093s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[2.101s]   final_project_interface --arguments-file
+[2.101s]   /home/ys/robot_ws/build/final_project_interface/rosidl_adapter__arguments__final_project_interface.json
+[2.101s]   --output-dir
+[2.101s]   /home/ys/robot_ws/build/final_project_interface/rosidl_adapter/final_project_interface
+[2.101s]   --output-file
+[2.102s]   /home/ys/robot_ws/build/final_project_interface/rosidl_adapter/final_project_interface.idls)
+[2.102s]   returned error code 1:
+[2.102s] 
+[2.102s]   Traceback (most recent call last):
+[2.102s] 
+[2.102s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[2.102s]       return _run_code(code, main_globals, None,
+[2.102s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[2.103s]       exec(code, run_globals)
+[2.103s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[2.103s]       sys.exit(main())
+[2.103s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[2.103s]       abs_idl_file = convert_to_idl(
+[2.103s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 29, in convert_to_idl
+[2.103s]       return convert_action_to_idl(
+[2.104s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/action/__init__.py", line 28, in convert_action_to_idl
+[2.104s]       action = parse_action_string(package_name, input_file.stem, content)
+[2.104s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 892, in parse_action_string
+[2.104s]       goal_message = parse_message_string(
+[2.104s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string
+[2.104s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[2.113s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__
+[2.113s]       self.base_type = BaseType(
+[2.113s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[2.113s]       raise InvalidResourceName(
+[2.113s] 
+[2.113s]   rosidl_adapter.parser.InvalidResourceName: 'control_action_Goal' is an
+[2.113s]   invalid message name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[2.114s] 
+[2.114s] Call Stack (most recent call first):
+[2.114s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[2.114s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[2.114s] 
+[2.114s] 
+[2.114s] -- Configuring incomplete, errors occurred!
+[2.115s] See also "/home/ys/robot_ws/build/final_project_interface/CMakeFiles/CMakeOutput.log".
+[2.137s] Invoked command in '/home/ys/robot_ws/build/final_project_interface' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/final_project:/opt/ros/foxy /usr/bin/cmake /home/ys/robot_ws/src/final_project_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ys/robot_ws/install/final_project_interface

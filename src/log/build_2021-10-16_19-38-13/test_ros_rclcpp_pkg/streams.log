@@ -1,0 +1,63 @@
+[0.026s] Invoking command in '/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ys/robot_ws/src/test_ros_rclcpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg
+[0.171s] -- The C compiler identification is GNU 9.3.0
+[0.266s] -- The CXX compiler identification is GNU 9.3.0
+[0.275s] -- Check for working C compiler: /usr/bin/cc
+[0.377s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.380s] -- Detecting C compiler ABI info
+[0.491s] -- Detecting C compiler ABI info - done
+[0.519s] -- Detecting C compile features
+[0.520s] -- Detecting C compile features - done
+[0.524s] -- Check for working CXX compiler: /usr/bin/c++
+[0.625s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.627s] -- Detecting CXX compiler ABI info
+[0.738s] -- Detecting CXX compiler ABI info - done
+[0.763s] -- Detecting CXX compile features
+[0.764s] -- Detecting CXX compile features - done
+[0.767s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.827s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.830s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.181s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.274s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.284s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.398s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.445s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.563s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.689s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.692s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.693s] -- Looking for pthread.h
+[1.804s] -- Looking for pthread.h - found
+[1.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.940s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.940s] -- Looking for pthread_create in pthreads
+[2.009s] -- Looking for pthread_create in pthreads - not found
+[2.009s] -- Looking for pthread_create in pthread
+[2.097s] -- Looking for pthread_create in pthread - found
+[2.099s] -- Found Threads: TRUE  
+[2.456s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.576s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.578s] -- Added test 'lint_cmake' to check CMake code style
+[2.580s] -- Added test 'xmllint' to check XML markup files
+[2.584s] -- Configuring done
+[2.588s] -- Generating done
+[2.591s] -- Build files have been written to: /home/ys/robot_ws/src/build/test_ros_rclcpp_pkg
+[2.604s] Invoked command in '/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ys/robot_ws/src/test_ros_rclcpp_pkg -DCMAKE_INSTALL_PREFIX=/home/ys/robot_ws/src/install/test_ros_rclcpp_pkg
+[2.605s] Invoking command in '/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ys/robot_ws/src/build/test_ros_rclcpp_pkg -- -j1 -l1
+[2.673s] Invoked command in '/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ys/robot_ws/src/build/test_ros_rclcpp_pkg -- -j1 -l1
+[2.703s] Invoking command in '/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ys/robot_ws/src/build/test_ros_rclcpp_pkg
+[2.718s] -- Install configuration: ""
+[2.719s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/ament_index/resource_index/package_run_dependencies/test_ros_rclcpp_pkg
+[2.719s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/ament_index/resource_index/parent_prefix_path/test_ros_rclcpp_pkg
+[2.720s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/environment/ament_prefix_path.sh
+[2.720s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/environment/ament_prefix_path.dsv
+[2.720s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/environment/path.sh
+[2.721s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/environment/path.dsv
+[2.721s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/local_setup.bash
+[2.721s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/local_setup.sh
+[2.722s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/local_setup.zsh
+[2.722s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/local_setup.dsv
+[2.722s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/package.dsv
+[2.723s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/ament_index/resource_index/packages/test_ros_rclcpp_pkg
+[2.723s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/cmake/test_ros_rclcpp_pkgConfig.cmake
+[2.723s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/cmake/test_ros_rclcpp_pkgConfig-version.cmake
+[2.724s] -- Installing: /home/ys/robot_ws/src/install/test_ros_rclcpp_pkg/share/test_ros_rclcpp_pkg/package.xml
+[2.728s] Invoked command in '/home/ys/robot_ws/src/build/test_ros_rclcpp_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ys/robot_ws/src/build/test_ros_rclcpp_pkg

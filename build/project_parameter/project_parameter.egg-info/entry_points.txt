@@ -1,0 +1,3 @@
+[console_scripts]
+project_param = project_parameter.parameter_node:main
+

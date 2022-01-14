@@ -1,0 +1,8 @@
+{
+  "package_name": "my_interface_example",
+  "non_idl_tuples": [
+    "/home/ys/robot_ws/src/my_interface_example:msg/Num.msg",
+    "/home/ys/robot_ws/src/my_interface_example:srv/AddThreeInts.srv",
+    "/home/ys/robot_ws/src/my_interface_example:action/Fibonacci.action"
+  ]
+}

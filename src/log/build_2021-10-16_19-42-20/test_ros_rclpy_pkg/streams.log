@@ -1,0 +1,33 @@
+[0.516s] Invoking command in '/home/ys/robot_ws/src/test_ros_rclpy_pkg': PYTHONPATH=/home/ys/robot_ws/src/install/test_ros_rclpy_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_ros_rclpy_pkg build --build-base /home/ys/robot_ws/src/build/test_ros_rclpy_pkg/build install --prefix /home/ys/robot_ws/src/install/test_ros_rclpy_pkg --record /home/ys/robot_ws/src/build/test_ros_rclpy_pkg/install.log --single-version-externally-managed
+[0.899s] running egg_info
+[0.902s] creating ../build/test_ros_rclpy_pkg/test_ros_rclpy_pkg.egg-info
+[0.903s] writing ../build/test_ros_rclpy_pkg/test_ros_rclpy_pkg.egg-info/PKG-INFO
+[0.904s] writing dependency_links to ../build/test_ros_rclpy_pkg/test_ros_rclpy_pkg.egg-info/dependency_links.txt
+[0.905s] writing entry points to ../build/test_ros_rclpy_pkg/test_ros_rclpy_pkg.egg-info/entry_points.txt
+[0.905s] writing requirements to ../build/test_ros_rclpy_pkg/test_ros_rclpy_pkg.egg-info/requires.txt
+[0.906s] writing top-level names to ../build/test_ros_rclpy_pkg/test_ros_rclpy_pkg.egg-info/top_level.txt
+[0.910s] writing manifest file '../build/test_ros_rclpy_pkg/test_ros_rclpy_pkg.egg-info/SOURCES.txt'
+[1.005s] reading manifest file '../build/test_ros_rclpy_pkg/test_ros_rclpy_pkg.egg-info/SOURCES.txt'
+[1.007s] writing manifest file '../build/test_ros_rclpy_pkg/test_ros_rclpy_pkg.egg-info/SOURCES.txt'
+[1.007s] running build
+[1.007s] running build_py
+[1.008s] creating /home/ys/robot_ws/src/build/test_ros_rclpy_pkg/build
+[1.008s] creating /home/ys/robot_ws/src/build/test_ros_rclpy_pkg/build/lib
+[1.008s] creating /home/ys/robot_ws/src/build/test_ros_rclpy_pkg/build/lib/test_ros_rclpy_pkg
+[1.008s] copying test_ros_rclpy_pkg/__init__.py -> /home/ys/robot_ws/src/build/test_ros_rclpy_pkg/build/lib/test_ros_rclpy_pkg
+[1.009s] running install
+[1.010s] running install_lib
+[1.011s] creating /home/ys/robot_ws/src/install/test_ros_rclpy_pkg/lib/python3.8/site-packages/test_ros_rclpy_pkg
+[1.012s] copying /home/ys/robot_ws/src/build/test_ros_rclpy_pkg/build/lib/test_ros_rclpy_pkg/__init__.py -> /home/ys/robot_ws/src/install/test_ros_rclpy_pkg/lib/python3.8/site-packages/test_ros_rclpy_pkg
+[1.012s] byte-compiling /home/ys/robot_ws/src/install/test_ros_rclpy_pkg/lib/python3.8/site-packages/test_ros_rclpy_pkg/__init__.py to __init__.cpython-38.pyc
+[1.014s] running install_data
+[1.015s] creating /home/ys/robot_ws/src/install/test_ros_rclpy_pkg/share/ament_index
+[1.015s] creating /home/ys/robot_ws/src/install/test_ros_rclpy_pkg/share/ament_index/resource_index
+[1.015s] creating /home/ys/robot_ws/src/install/test_ros_rclpy_pkg/share/ament_index/resource_index/packages
+[1.016s] copying resource/test_ros_rclpy_pkg -> /home/ys/robot_ws/src/install/test_ros_rclpy_pkg/share/ament_index/resource_index/packages
+[1.016s] copying package.xml -> /home/ys/robot_ws/src/install/test_ros_rclpy_pkg/share/test_ros_rclpy_pkg
+[1.016s] running install_egg_info
+[1.019s] Copying ../build/test_ros_rclpy_pkg/test_ros_rclpy_pkg.egg-info to /home/ys/robot_ws/src/install/test_ros_rclpy_pkg/lib/python3.8/site-packages/test_ros_rclpy_pkg-0.0.0-py3.8.egg-info
+[1.020s] running install_scripts
+[1.067s] writing list of installed files to '/home/ys/robot_ws/src/build/test_ros_rclpy_pkg/install.log'
+[1.100s] Invoked command in '/home/ys/robot_ws/src/test_ros_rclpy_pkg' returned '0': PYTHONPATH=/home/ys/robot_ws/src/install/test_ros_rclpy_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/test_ros_rclpy_pkg build --build-base /home/ys/robot_ws/src/build/test_ros_rclpy_pkg/build install --prefix /home/ys/robot_ws/src/install/test_ros_rclpy_pkg --record /home/ys/robot_ws/src/build/test_ros_rclpy_pkg/install.log --single-version-externally-managed

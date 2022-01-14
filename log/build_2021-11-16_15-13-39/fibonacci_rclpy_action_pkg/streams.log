@@ -1,0 +1,26 @@
+[0.423s] Invoking command in '/home/ys/robot_ws/build/fibonacci_rclpy_action_pkg': CMAKE_PREFIX_PATH=/home/ys/robot_ws/install/my_interface_example:/home/ys/robot_ws/install/teleop_twist_joy LD_LIBRARY_PATH=/home/ys/robot_ws/install/my_interface_example/lib:/home/ys/robot_ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages:/home/ys/robot_ws/build/sum_rclpy_srvcli_pkg:/home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/first_rclpy_pkg:/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/fibonacci_rclpy_action_pkg --editable --build-directory /home/ys/robot_ws/build/fibonacci_rclpy_action_pkg/build --no-deps install_data --install-dir /home/ys/robot_ws/install/fibonacci_rclpy_action_pkg
+[0.826s] running develop
+[1.009s] running egg_info
+[1.010s] creating fibonacci_rclpy_action_pkg.egg-info
+[1.010s] writing fibonacci_rclpy_action_pkg.egg-info/PKG-INFO
+[1.010s] writing dependency_links to fibonacci_rclpy_action_pkg.egg-info/dependency_links.txt
+[1.011s] writing entry points to fibonacci_rclpy_action_pkg.egg-info/entry_points.txt
+[1.011s] writing requirements to fibonacci_rclpy_action_pkg.egg-info/requires.txt
+[1.011s] writing top-level names to fibonacci_rclpy_action_pkg.egg-info/top_level.txt
+[1.016s] writing manifest file 'fibonacci_rclpy_action_pkg.egg-info/SOURCES.txt'
+[1.092s] reading manifest file 'fibonacci_rclpy_action_pkg.egg-info/SOURCES.txt'
+[1.094s] writing manifest file 'fibonacci_rclpy_action_pkg.egg-info/SOURCES.txt'
+[1.188s] running build_ext
+[1.189s] Creating /home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/lib/python3.8/site-packages/site.py
+[1.192s] Creating /home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/lib/python3.8/site-packages/fibonacci-rclpy-action-pkg.egg-link (link to .)
+[1.193s] Installing fibonacci_action_client script to /home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/lib/fibonacci_rclpy_action_pkg
+[1.194s] Installing fibonacci_action_server script to /home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/lib/fibonacci_rclpy_action_pkg
+[1.194s] 
+[1.194s] Installed /home/ys/robot_ws/build/fibonacci_rclpy_action_pkg
+[1.195s] running install_data
+[1.195s] creating /home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/share/ament_index
+[1.195s] creating /home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/share/ament_index/resource_index
+[1.195s] creating /home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/share/ament_index/resource_index/packages
+[1.196s] copying resource/fibonacci_rclpy_action_pkg -> /home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/share/ament_index/resource_index/packages
+[1.196s] copying package.xml -> /home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/share/fibonacci_rclpy_action_pkg
+[1.241s] Invoked command in '/home/ys/robot_ws/build/fibonacci_rclpy_action_pkg' returned '0': CMAKE_PREFIX_PATH=/home/ys/robot_ws/install/my_interface_example:/home/ys/robot_ws/install/teleop_twist_joy LD_LIBRARY_PATH=/home/ys/robot_ws/install/my_interface_example/lib:/home/ys/robot_ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages:/home/ys/robot_ws/build/sum_rclpy_srvcli_pkg:/home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/first_rclpy_pkg:/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/fibonacci_rclpy_action_pkg --editable --build-directory /home/ys/robot_ws/build/fibonacci_rclpy_action_pkg/build --no-deps install_data --install-dir /home/ys/robot_ws/install/fibonacci_rclpy_action_pkg

@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing final_project.egg-info/PKG-INFO
+writing dependency_links to final_project.egg-info/dependency_links.txt
+writing entry points to final_project.egg-info/entry_points.txt
+writing requirements to final_project.egg-info/requires.txt
+writing top-level names to final_project.egg-info/top_level.txt
+reading manifest file 'final_project.egg-info/SOURCES.txt'
+writing manifest file 'final_project.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ys/robot_ws/install/final_project/lib/python3.8/site-packages/final-project.egg-link (link to .)
+Installing control_publisher script to /home/ys/robot_ws/install/final_project/lib/final_project
+Installing control_subscriber script to /home/ys/robot_ws/install/final_project/lib/final_project
+
+Installed /home/ys/robot_ws/build/final_project
+running install_data
+copying package.xml -> /home/ys/robot_ws/install/final_project/share/final_project

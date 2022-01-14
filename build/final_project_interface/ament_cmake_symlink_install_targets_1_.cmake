@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ys/robot_ws/build/final_project_interface/libfinal_project_interface__rosidl_typesupport_fastrtps_cpp.so" "TARGETS" "final_project_interface__rosidl_typesupport_fastrtps_cpp" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

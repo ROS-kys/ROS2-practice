@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from project_interface/action/Controller.action
+// generated code does not contain a copyright notice
+
+
+module project_interface {
+  module action {
+    struct Controller_Goal {
+      string goal_point;
+    };
+    struct Controller_Result {
+      string result;
+    };
+    struct Controller_Feedback {
+      string status;
+    };
+  };
+};

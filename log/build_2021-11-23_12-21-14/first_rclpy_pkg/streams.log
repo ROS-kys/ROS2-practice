@@ -1,0 +1,19 @@
+[0.837s] Invoking command in '/home/ys/robot_ws/build/first_rclpy_pkg': CMAKE_PREFIX_PATH=/home/ys/robot_ws/install/my_interface_example:/home/ys/robot_ws/install/teleop_twist_joy LD_LIBRARY_PATH=/home/ys/robot_ws/install/my_interface_example/lib:/home/ys/robot_ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages:/home/ys/robot_ws/build/sum_rclpy_srvcli_pkg:/home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/python_parameters:/home/ys/robot_ws/install/python_parameters/lib/python3.8/site-packages:/home/ys/robot_ws/build/first_rclpy_pkg:/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/first_rclpy_pkg --editable --build-directory /home/ys/robot_ws/build/first_rclpy_pkg/build --no-deps install_data --install-dir /home/ys/robot_ws/install/first_rclpy_pkg
+[1.655s] running develop
+[2.028s] running egg_info
+[2.029s] writing first_rclpy_pkg.egg-info/PKG-INFO
+[2.029s] writing dependency_links to first_rclpy_pkg.egg-info/dependency_links.txt
+[2.030s] writing entry points to first_rclpy_pkg.egg-info/entry_points.txt
+[2.030s] writing requirements to first_rclpy_pkg.egg-info/requires.txt
+[2.031s] writing top-level names to first_rclpy_pkg.egg-info/top_level.txt
+[2.157s] reading manifest file 'first_rclpy_pkg.egg-info/SOURCES.txt'
+[2.170s] writing manifest file 'first_rclpy_pkg.egg-info/SOURCES.txt'
+[2.297s] running build_ext
+[2.298s] Creating /home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages/first-rclpy-pkg.egg-link (link to .)
+[2.300s] Installing helloworld_publisher script to /home/ys/robot_ws/install/first_rclpy_pkg/lib/first_rclpy_pkg
+[2.300s] Installing helloworld_subscriber script to /home/ys/robot_ws/install/first_rclpy_pkg/lib/first_rclpy_pkg
+[2.302s] 
+[2.302s] Installed /home/ys/robot_ws/build/first_rclpy_pkg
+[2.302s] running install_data
+[2.303s] copying launch/helloworld.launch.py -> /home/ys/robot_ws/install/first_rclpy_pkg/share/first_rclpy_pkg
+[2.400s] Invoked command in '/home/ys/robot_ws/build/first_rclpy_pkg' returned '0': CMAKE_PREFIX_PATH=/home/ys/robot_ws/install/my_interface_example:/home/ys/robot_ws/install/teleop_twist_joy LD_LIBRARY_PATH=/home/ys/robot_ws/install/my_interface_example/lib:/home/ys/robot_ws/install/teleop_twist_joy/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages:/home/ys/robot_ws/build/sum_rclpy_srvcli_pkg:/home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/python_parameters:/home/ys/robot_ws/install/python_parameters/lib/python3.8/site-packages:/home/ys/robot_ws/build/first_rclpy_pkg:/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/first_rclpy_pkg --editable --build-directory /home/ys/robot_ws/build/first_rclpy_pkg/build --no-deps install_data --install-dir /home/ys/robot_ws/install/first_rclpy_pkg

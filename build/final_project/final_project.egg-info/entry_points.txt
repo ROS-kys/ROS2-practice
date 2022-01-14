@@ -1,0 +1,5 @@
+[console_scripts]
+control_publisher = final_project.control_publisher:main
+control_server = final_project.control_server:main
+control_subscriber_client = final_project.control_subscriber_client:main
+

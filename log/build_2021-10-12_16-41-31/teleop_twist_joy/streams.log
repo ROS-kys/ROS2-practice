@@ -1,0 +1,38 @@
+[0.015s] Invoking command in '/home/ys/robot_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ys/robot_ws/build/teleop_twist_joy -- -j1 -l1
+[0.116s] [ 50%] Built target teleop_twist_joy
+[0.158s] [100%] Built target teleop_twist_joy_node
+[0.171s] Invoked command in '/home/ys/robot_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ys/robot_ws/build/teleop_twist_joy -- -j1 -l1
+[0.212s] Invoking command in '/home/ys/robot_ws/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ys/robot_ws/build/teleop_twist_joy
+[0.224s] -- Install configuration: ""
+[0.225s] -- Execute custom install script
+[0.226s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/lib/libteleop_twist_joy.so
+[0.227s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/lib/teleop_twist_joy/teleop_node
+[0.230s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy.hpp
+[0.230s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/include/teleop_twist_joy/teleop_twist_joy_export.h
+[0.231s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/launch/teleop-launch.py
+[0.232s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/atk3.config.yaml
+[0.232s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3-holonomic.config.yaml
+[0.233s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/ps3.config.yaml
+[0.233s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xbox.config.yaml
+[0.234s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/config/xd3.config.yaml
+[0.234s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.sh
+[0.235s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/library_path.dsv
+[0.235s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/ament_index/resource_index/package_run_dependencies/teleop_twist_joy
+[0.236s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/ament_index/resource_index/parent_prefix_path/teleop_twist_joy
+[0.236s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.sh
+[0.237s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/ament_prefix_path.dsv
+[0.238s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.sh
+[0.238s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/environment/path.dsv
+[0.239s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.bash
+[0.239s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.sh
+[0.240s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.zsh
+[0.240s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/local_setup.dsv
+[0.241s] -- Symlinking: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.dsv
+[0.251s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/ament_index/resource_index/packages/teleop_twist_joy
+[0.252s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/ament_index/resource_index/rclcpp_components/teleop_twist_joy
+[0.252s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.253s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/ament_cmake_export_libraries-extras.cmake
+[0.253s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig.cmake
+[0.254s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/cmake/teleop_twist_joyConfig-version.cmake
+[0.254s] -- Up-to-date symlink: /home/ys/robot_ws/install/teleop_twist_joy/share/teleop_twist_joy/package.xml
+[0.259s] Invoked command in '/home/ys/robot_ws/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ys/robot_ws/build/teleop_twist_joy

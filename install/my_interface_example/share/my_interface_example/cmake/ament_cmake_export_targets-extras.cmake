@@ -1,0 +1,1 @@
+/home/ys/robot_ws/build/my_interface_example/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake

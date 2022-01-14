@@ -1,0 +1,6 @@
+Invoking command in '/home/ys/robot_ws/src/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ys/robot_ws/src/teleop_twist_joy -DCMAKE_INSTALL_PREFIX=/home/ys/robot_ws/src/install/teleop_twist_joy
+Invoked command in '/home/ys/robot_ws/src/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/ys/robot_ws/src/teleop_twist_joy -DCMAKE_INSTALL_PREFIX=/home/ys/robot_ws/src/install/teleop_twist_joy
+Invoking command in '/home/ys/robot_ws/src/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ys/robot_ws/src/build/teleop_twist_joy -- -j1 -l1
+Invoked command in '/home/ys/robot_ws/src/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/ys/robot_ws/src/build/teleop_twist_joy -- -j1 -l1
+Invoking command in '/home/ys/robot_ws/src/build/teleop_twist_joy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ys/robot_ws/src/build/teleop_twist_joy
+Invoked command in '/home/ys/robot_ws/src/build/teleop_twist_joy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/ys/robot_ws/src/build/teleop_twist_joy

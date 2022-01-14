@@ -1,0 +1,3 @@
+/home/ys/robot_ws/build/my_interface_example/rosidl_adapter/my_interface_example:msg/Num.idl
+/home/ys/robot_ws/build/my_interface_example/rosidl_adapter/my_interface_example:srv/AddThreeInts.idl
+/home/ys/robot_ws/build/my_interface_example/rosidl_adapter/my_interface_example:action/Fibonacci.idl

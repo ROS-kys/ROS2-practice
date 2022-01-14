@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000263] (-) JobUnselected: {'identifier': 'fibonacci_rclpy_action_pkg'}
+[0.000310] (-) JobUnselected: {'identifier': 'final_project'}
+[0.000338] (-) JobUnselected: {'identifier': 'first_rclpy_pkg'}
+[0.000365] (-) JobUnselected: {'identifier': 'my_action_interface'}
+[0.000392] (-) JobUnselected: {'identifier': 'my_interface_example'}
+[0.000419] (-) JobUnselected: {'identifier': 'project_interface'}
+[0.000445] (-) JobUnselected: {'identifier': 'python_parameters'}
+[0.000471] (-) JobUnselected: {'identifier': 'sum_rclpy_srvcli_pkg'}
+[0.000498] (-) JobUnselected: {'identifier': 'teleop_twist_joy'}
+[0.000524] (-) JobUnselected: {'identifier': 'test_ros_rclcpp_pkg'}
+[0.000550] (-) JobUnselected: {'identifier': 'test_ros_rclpy_pkg'}
+[0.000582] (project_parameter) JobQueued: {'identifier': 'project_parameter', 'dependencies': OrderedDict()}
+[0.000612] (project_parameter) JobStarted: {'identifier': 'project_parameter'}
+[0.095780] (-) TimerEvent: {}
+[0.199722] (-) TimerEvent: {}
+[0.300332] (-) TimerEvent: {}
+[0.403725] (-) TimerEvent: {}
+[0.507700] (-) TimerEvent: {}
+[0.611694] (-) TimerEvent: {}
+[0.712053] (-) TimerEvent: {}
+[0.780326] (project_parameter) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'develop', '--prefix', '/home/ys/robot_ws/install/project_parameter', '--editable', '--build-directory', '/home/ys/robot_ws/build/project_parameter/build', '--no-deps', 'install_data', '--install-dir', '/home/ys/robot_ws/install/project_parameter'], 'cwd': '/home/ys/robot_ws/build/project_parameter', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ys', 'LC_TIME': 'ko_KR.UTF-8', 'SSH_AGENT_PID': '1536', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ys/ws_moveit2/install/moveit_visual_tools/lib:/home/ys/ws_moveit2/install/rviz_visual_tools/lib:/home/ys/robot_ws/install/teleop_twist_joy/lib:/home/ys/robot_ws/install/project_interface/lib:/home/ys/robot_ws/install/my_interface_example/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'HOME': '/home/ys', 'OLDPWD': '/home/ys/robot_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'ko_KR.UTF-8', 'MANAGERPID': '1325', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4220', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/ys/ws_moveit2/install:/home/ys/robot_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'ys', 'JOURNAL_STREAM': '8:36357', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ys', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'SESSION_MANAGER': 'local/ys-VirtualBox:@/tmp/.ICE-unix/1585,unix/ys-VirtualBox:/tmp/.ICE-unix/1585', 'INVOCATION_ID': '1531cc3908fe4d2391bd566a1c1a4922', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ko_KR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ko_KR.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ys/ws_moveit2/install/moveit2_tutorials:/home/ys/ws_moveit2/install/moveit_visual_tools:/home/ys/ws_moveit2/install/rviz_visual_tools:/home/ys/ws_moveit2/install/moveit_resources:/home/ys/ws_moveit2/install/moveit_resources_pr2_description:/home/ys/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_panda_description:/home/ys/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_fanuc_description:/home/ys/robot_ws/install/teleop_twist_joy:/home/ys/robot_ws/install/python_parameters:/home/ys/robot_ws/install/final_project:/home/ys/robot_ws/install/project_interface:/home/ys/robot_ws/install/first_rclpy_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/my_interface_example:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LC_NAME': 'ko_KR.UTF-8', 'TERMINATOR_UUID': 'urn:uuid:72e39ad9-99c1-4d81-9eae-066774919d86', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ko_KR.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ko_KR.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ys/robot_ws/build/project_parameter', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ys/robot_ws/install/project_parameter/lib/python3.8/site-packages:/home/ys/robot_ws/build/sum_rclpy_srvcli_pkg:/home/ys/robot_ws/install/sum_rclpy_srvcli_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/python_parameters:/home/ys/robot_ws/install/python_parameters/lib/python3.8/site-packages:/home/ys/robot_ws/build/final_project:/home/ys/robot_ws/install/final_project/lib/python3.8/site-packages:/home/ys/robot_ws/install/project_interface/lib/python3.8/site-packages:/home/ys/robot_ws/build/first_rclpy_pkg:/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/build/fibonacci_rclpy_action_pkg:/home/ys/robot_ws/install/fibonacci_rclpy_action_pkg/lib/python3.8/site-packages:/home/ys/robot_ws/install/my_interface_example/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'LC_NUMERIC': 'ko_KR.UTF-8', 'LC_PAPER': 'ko_KR.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6003', 'CMAKE_PREFIX_PATH': '/home/ys/ws_moveit2/install/moveit2_tutorials:/home/ys/ws_moveit2/install/moveit_visual_tools:/home/ys/ws_moveit2/install/rviz_visual_tools:/home/ys/ws_moveit2/install/moveit_resources:/home/ys/ws_moveit2/install/moveit_resources_pr2_description:/home/ys/ws_moveit2/install/moveit_resources_panda_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_panda_description:/home/ys/ws_moveit2/install/moveit_resources_fanuc_moveit_config:/home/ys/ws_moveit2/install/moveit_resources_fanuc_description:/home/ys/robot_ws/install/teleop_twist_joy:/home/ys/robot_ws/install/project_interface:/home/ys/robot_ws/install/my_interface_example'}, 'shell': False}
+[0.812506] (-) TimerEvent: {}
+[0.915718] (-) TimerEvent: {}
+[1.019688] (-) TimerEvent: {}
+[1.120050] (-) TimerEvent: {}
+[1.239717] (-) TimerEvent: {}
+[1.343706] (-) TimerEvent: {}
+[1.446683] (-) TimerEvent: {}
+[1.549712] (-) TimerEvent: {}
+[1.636007] (project_parameter) StdoutLine: {'line': b'running develop\n'}
+[1.651706] (-) TimerEvent: {}
+[1.752074] (-) TimerEvent: {}
+[1.852440] (-) TimerEvent: {}
+[1.955484] (-) TimerEvent: {}
+[2.057349] (-) TimerEvent: {}
+[2.076710] (project_parameter) StdoutLine: {'line': b'running egg_info\n'}
+[2.079014] (project_parameter) StdoutLine: {'line': b'writing project_parameter.egg-info/PKG-INFO\n'}
+[2.079628] (project_parameter) StdoutLine: {'line': b'writing dependency_links to project_parameter.egg-info/dependency_links.txt\n'}
+[2.080666] (project_parameter) StdoutLine: {'line': b'writing entry points to project_parameter.egg-info/entry_points.txt\n'}
+[2.082117] (project_parameter) StdoutLine: {'line': b'writing requirements to project_parameter.egg-info/requires.txt\n'}
+[2.082469] (project_parameter) StdoutLine: {'line': b'writing top-level names to project_parameter.egg-info/top_level.txt\n'}
+[2.157979] (-) TimerEvent: {}
+[2.251907] (project_parameter) StdoutLine: {'line': b"reading manifest file 'project_parameter.egg-info/SOURCES.txt'\n"}
+[2.253392] (project_parameter) StdoutLine: {'line': b"writing manifest file 'project_parameter.egg-info/SOURCES.txt'\n"}
+[2.258118] (-) TimerEvent: {}
+[2.359791] (-) TimerEvent: {}
+[2.428411] (project_parameter) StdoutLine: {'line': b'running build_ext\n'}
+[2.431971] (project_parameter) StdoutLine: {'line': b'Creating /home/ys/robot_ws/install/project_parameter/lib/python3.8/site-packages/project-parameter.egg-link (link to .)\n'}
+[2.435175] (project_parameter) StdoutLine: {'line': b'Installing param_talker script to /home/ys/robot_ws/install/project_parameter/lib/project_parameter\n'}
+[2.435760] (project_parameter) StdoutLine: {'line': b'\n'}
+[2.435959] (project_parameter) StdoutLine: {'line': b'Installed /home/ys/robot_ws/build/project_parameter\n'}
+[2.436239] (project_parameter) StdoutLine: {'line': b'running install_data\n'}
+[2.436672] (project_parameter) StdoutLine: {'line': b'copying package.xml -> /home/ys/robot_ws/install/project_parameter/share/project_parameter\n'}
+[2.460232] (-) TimerEvent: {}
+[2.547506] (project_parameter) CommandEnded: {'returncode': 0}
+[2.561946] (-) TimerEvent: {}
+[2.613047] (project_parameter) JobEnded: {'identifier': 'project_parameter', 'rc': 0}
+[2.617656] (-) EventReactorShutdown: {}

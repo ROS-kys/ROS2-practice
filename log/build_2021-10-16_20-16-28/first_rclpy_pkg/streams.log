@@ -1,0 +1,26 @@
+[0.364s] Invoking command in '/home/ys/robot_ws/build/first_rclpy_pkg': PYTHONPATH=/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/first_rclpy_pkg --editable --build-directory /home/ys/robot_ws/build/first_rclpy_pkg/build --no-deps install_data --install-dir /home/ys/robot_ws/install/first_rclpy_pkg
+[0.692s] running develop
+[0.864s] running egg_info
+[0.864s] creating first_rclpy_pkg.egg-info
+[0.864s] writing first_rclpy_pkg.egg-info/PKG-INFO
+[0.865s] writing dependency_links to first_rclpy_pkg.egg-info/dependency_links.txt
+[0.865s] writing entry points to first_rclpy_pkg.egg-info/entry_points.txt
+[0.865s] writing requirements to first_rclpy_pkg.egg-info/requires.txt
+[0.866s] writing top-level names to first_rclpy_pkg.egg-info/top_level.txt
+[0.867s] writing manifest file 'first_rclpy_pkg.egg-info/SOURCES.txt'
+[0.926s] reading manifest file 'first_rclpy_pkg.egg-info/SOURCES.txt'
+[0.930s] writing manifest file 'first_rclpy_pkg.egg-info/SOURCES.txt'
+[1.002s] running build_ext
+[1.003s] Creating /home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages/site.py
+[1.007s] Creating /home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages/first-rclpy-pkg.egg-link (link to .)
+[1.008s] Installing helloworld_publisher script to /home/ys/robot_ws/install/first_rclpy_pkg/lib/first_rclpy_pkg
+[1.008s] Installing helloworld_subscriber script to /home/ys/robot_ws/install/first_rclpy_pkg/lib/first_rclpy_pkg
+[1.008s] 
+[1.009s] Installed /home/ys/robot_ws/build/first_rclpy_pkg
+[1.009s] running install_data
+[1.009s] creating /home/ys/robot_ws/install/first_rclpy_pkg/share/ament_index
+[1.009s] creating /home/ys/robot_ws/install/first_rclpy_pkg/share/ament_index/resource_index
+[1.010s] creating /home/ys/robot_ws/install/first_rclpy_pkg/share/ament_index/resource_index/packages
+[1.010s] copying resource/first_rclpy_pkg -> /home/ys/robot_ws/install/first_rclpy_pkg/share/ament_index/resource_index/packages
+[1.010s] copying package.xml -> /home/ys/robot_ws/install/first_rclpy_pkg/share/first_rclpy_pkg
+[1.056s] Invoked command in '/home/ys/robot_ws/build/first_rclpy_pkg' returned '0': PYTHONPATH=/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/first_rclpy_pkg --editable --build-directory /home/ys/robot_ws/build/first_rclpy_pkg/build --no-deps install_data --install-dir /home/ys/robot_ws/install/first_rclpy_pkg

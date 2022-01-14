@@ -1,0 +1,18 @@
+[0.392s] Invoking command in '/home/ys/robot_ws/build/first_rclpy_pkg': PYTHONPATH=/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/first_rclpy_pkg --editable --build-directory /home/ys/robot_ws/build/first_rclpy_pkg/build --no-deps install_data --install-dir /home/ys/robot_ws/install/first_rclpy_pkg
+[0.736s] running develop
+[0.913s] running egg_info
+[0.914s] writing first_rclpy_pkg.egg-info/PKG-INFO
+[0.914s] writing dependency_links to first_rclpy_pkg.egg-info/dependency_links.txt
+[0.915s] writing entry points to first_rclpy_pkg.egg-info/entry_points.txt
+[0.915s] writing requirements to first_rclpy_pkg.egg-info/requires.txt
+[0.915s] writing top-level names to first_rclpy_pkg.egg-info/top_level.txt
+[0.978s] reading manifest file 'first_rclpy_pkg.egg-info/SOURCES.txt'
+[0.980s] writing manifest file 'first_rclpy_pkg.egg-info/SOURCES.txt'
+[1.042s] running build_ext
+[1.043s] Creating /home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages/first-rclpy-pkg.egg-link (link to .)
+[1.044s] Installing helloworld_publisher script to /home/ys/robot_ws/install/first_rclpy_pkg/lib/first_rclpy_pkg
+[1.044s] Installing helloworld_subscriber script to /home/ys/robot_ws/install/first_rclpy_pkg/lib/first_rclpy_pkg
+[1.045s] 
+[1.045s] Installed /home/ys/robot_ws/build/first_rclpy_pkg
+[1.045s] running install_data
+[1.083s] Invoked command in '/home/ys/robot_ws/build/first_rclpy_pkg' returned '0': PYTHONPATH=/home/ys/robot_ws/install/first_rclpy_pkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/first_rclpy_pkg --editable --build-directory /home/ys/robot_ws/build/first_rclpy_pkg/build --no-deps install_data --install-dir /home/ys/robot_ws/install/first_rclpy_pkg

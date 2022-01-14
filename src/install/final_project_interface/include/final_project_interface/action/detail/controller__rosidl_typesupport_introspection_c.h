@@ -1,0 +1,1 @@
+/home/ys/robot_ws/src/build/final_project_interface/rosidl_typesupport_introspection_c/final_project_interface/action/detail/controller__rosidl_typesupport_introspection_c.h

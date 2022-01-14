@@ -1,0 +1,17 @@
+[0.847s] Invoking command in '/home/ys/robot_ws/build/project_parameter': PYTHONPATH=/home/ys/robot_ws/install/project_parameter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/project_parameter --editable --build-directory /home/ys/robot_ws/build/project_parameter/build --no-deps install_data --install-dir /home/ys/robot_ws/install/project_parameter
+[1.687s] running develop
+[2.146s] running egg_info
+[2.148s] writing project_parameter.egg-info/PKG-INFO
+[2.149s] writing dependency_links to project_parameter.egg-info/dependency_links.txt
+[2.150s] writing entry points to project_parameter.egg-info/entry_points.txt
+[2.150s] writing requirements to project_parameter.egg-info/requires.txt
+[2.151s] writing top-level names to project_parameter.egg-info/top_level.txt
+[2.283s] reading manifest file 'project_parameter.egg-info/SOURCES.txt'
+[2.284s] writing manifest file 'project_parameter.egg-info/SOURCES.txt'
+[2.410s] running build_ext
+[2.411s] Creating /home/ys/robot_ws/install/project_parameter/lib/python3.8/site-packages/project-parameter.egg-link (link to .)
+[2.414s] Installing project_param script to /home/ys/robot_ws/install/project_parameter/lib/project_parameter
+[2.416s] 
+[2.416s] Installed /home/ys/robot_ws/build/project_parameter
+[2.416s] running install_data
+[2.502s] Invoked command in '/home/ys/robot_ws/build/project_parameter' returned '0': PYTHONPATH=/home/ys/robot_ws/install/project_parameter/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/ys/robot_ws/install/project_parameter --editable --build-directory /home/ys/robot_ws/build/project_parameter/build --no-deps install_data --install-dir /home/ys/robot_ws/install/project_parameter

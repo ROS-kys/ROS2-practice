@@ -1,0 +1,4 @@
+[console_scripts]
+sum_client = sum_rclpy_srvcli_pkg.sum_client:main
+sum_service = sum_rclpy_srvcli_pkg.sum_service:main
+

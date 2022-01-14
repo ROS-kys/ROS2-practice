@@ -1,0 +1,4 @@
+[console_scripts]
+helloworld_publisher = first_rclpy_pkg.helloworld_publisher:main
+helloworld_subscriber = first_rclpy_pkg.helloworld_subscriber:main
+

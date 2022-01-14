@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/test_rs_rclpy_pkg/test_rs_rclpy_pkg.egg-info
+writing ../build/test_rs_rclpy_pkg/test_rs_rclpy_pkg.egg-info/PKG-INFO
+writing dependency_links to ../build/test_rs_rclpy_pkg/test_rs_rclpy_pkg.egg-info/dependency_links.txt
+writing entry points to ../build/test_rs_rclpy_pkg/test_rs_rclpy_pkg.egg-info/entry_points.txt
+writing requirements to ../build/test_rs_rclpy_pkg/test_rs_rclpy_pkg.egg-info/requires.txt
+writing top-level names to ../build/test_rs_rclpy_pkg/test_rs_rclpy_pkg.egg-info/top_level.txt
+writing manifest file '../build/test_rs_rclpy_pkg/test_rs_rclpy_pkg.egg-info/SOURCES.txt'
+reading manifest file '../build/test_rs_rclpy_pkg/test_rs_rclpy_pkg.egg-info/SOURCES.txt'
+writing manifest file '../build/test_rs_rclpy_pkg/test_rs_rclpy_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ys/robot_ws/src/build/test_rs_rclpy_pkg/build
+creating /home/ys/robot_ws/src/build/test_rs_rclpy_pkg/build/lib
+creating /home/ys/robot_ws/src/build/test_rs_rclpy_pkg/build/lib/test_rs_rclpy_pkg
+copying test_rs_rclpy_pkg/__init__.py -> /home/ys/robot_ws/src/build/test_rs_rclpy_pkg/build/lib/test_rs_rclpy_pkg
+running install
+running install_lib
+creating /home/ys/robot_ws/src/install/test_rs_rclpy_pkg/lib/python3.8/site-packages/test_rs_rclpy_pkg
+copying /home/ys/robot_ws/src/build/test_rs_rclpy_pkg/build/lib/test_rs_rclpy_pkg/__init__.py -> /home/ys/robot_ws/src/install/test_rs_rclpy_pkg/lib/python3.8/site-packages/test_rs_rclpy_pkg
+byte-compiling /home/ys/robot_ws/src/install/test_rs_rclpy_pkg/lib/python3.8/site-packages/test_rs_rclpy_pkg/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/ys/robot_ws/src/install/test_rs_rclpy_pkg/share/ament_index
+creating /home/ys/robot_ws/src/install/test_rs_rclpy_pkg/share/ament_index/resource_index
+creating /home/ys/robot_ws/src/install/test_rs_rclpy_pkg/share/ament_index/resource_index/packages
+copying resource/test_rs_rclpy_pkg -> /home/ys/robot_ws/src/install/test_rs_rclpy_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/ys/robot_ws/src/install/test_rs_rclpy_pkg/share/test_rs_rclpy_pkg
+running install_egg_info
+Copying ../build/test_rs_rclpy_pkg/test_rs_rclpy_pkg.egg-info to /home/ys/robot_ws/src/install/test_rs_rclpy_pkg/lib/python3.8/site-packages/test_rs_rclpy_pkg-0.0.0-py3.8.egg-info
+running install_scripts
+writing list of installed files to '/home/ys/robot_ws/src/build/test_rs_rclpy_pkg/install.log'
